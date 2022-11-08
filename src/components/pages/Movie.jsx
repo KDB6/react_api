@@ -12,7 +12,6 @@ import Contact from "../layout/Contact";
 const Movie = () => {
   const [movies, setMovies] = useState([]);
   const [popular, setPopular] = useState([]);
-  const [slider, setSlider] = useState([]);
 
   const search = (query) => {
     fetch(

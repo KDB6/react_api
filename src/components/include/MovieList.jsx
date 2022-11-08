@@ -22,11 +22,11 @@ function MoviePopular(props) {
 //         <section className="movieList">
 //             <div className="container">
 //                 <div className="moviePopular">
-                    // <ul>
-                    //     {props.popular.map((popular, index) => (
-                    //         <MoviePopular key={index} movie={popular} index={index} />
-                    //     ))}
-                    // </ul>
+//                     <ul>
+//                         {props.popular.map((popular, index) => (
+//                             <MoviePopular key={index} movie={popular} index={index} />
+//                         ))}
+//                     </ul>
 //                 </div>
 //             </div>
 //         </section>
@@ -35,8 +35,9 @@ function MoviePopular(props) {
 
 const MovieList = (props) => {
     return (
-        <section className="movieList">
+        <section className="moviePopular">
             <div className="container">
+                <h2>Ranking</h2>
                 <div className="moviePopular">
                     <ul>
                     <Swiper
@@ -53,7 +54,7 @@ const MovieList = (props) => {
                             {props.popular.map((popular, index) =>
                                 index < 10 ? (
                                     <SwiperSlide key={index}>
-                                    <MoviePopular key={index} popular={popular} index={index} />
+                                    <MoviePopular key={index} movie={popular} index={index} />
                                     </SwiperSlide>
                                 ) : null
                             )}
