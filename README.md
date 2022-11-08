@@ -1,3 +1,6 @@
+## 1차 완성   
+https://kdb6-reactapi.netlify.app/
+
 # Getting Started with Create React App
 
 ## 리액트 설치
