@@ -1,0 +1,4971 @@
+{
+    "type": "css",
+    "cssRefer": [
+        {
+            "num": 1,
+            "title": "accent-color",
+            "desc": "특정 요소에 색상을 지정할 때 사용됩니다.",
+            "descBasic": "accent-color : stretch",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "특정 요소에 색상을 지정할 때 사용됩니다.",
+                "."
+            ]
+        },
+        {
+            "num": 2,
+            "title": "align-content",
+            "desc": "콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+            "descBasic": "align-content : stretch",
+            "descApple": "align",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 3,
+            "title": "align-items",
+            "desc": "콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+            "descBasic": "align-items : stretch",
+            "descApple": "align",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 4,
+            "title": "align-self",
+            "desc": "콘텐츠 아이템의 상하관계 정렬 상태를 설정",
+            "descBasic": "align-self : stretch",
+            "descApple": "align",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "개별적인 콘텐츠 아이템의 정렬 상태를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 5,
+            "title": "all",
+            "desc": "요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "descBasic": "all : stretch",
+            "descApple": "all",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 속성을 초기화 또는 상속을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 6,
+            "title": "animation",
+            "desc": "요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "descBasic": "animation : stretch",
+            "descApple": "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 속성을 초기화 또는 상속을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 7,
+            "title": "animation-delay",
+            "desc": "...",
+            "descBasic": "animation-delay : stretch",
+            "descApple": "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "애니메이션 지연 시간을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 8,
+            "title": "animation-direction",
+            "desc": "...",
+            "descBasic": "animation-direction : stretch",
+            "descApple": "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "애니메이션 움직임 방향을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 9,
+            "title": "animation-duration",
+            "desc": "애니메이션 움직임 시간을 설정합니다.",
+            "descBasic": "animation-duration : stretch",
+            "descApple": "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "애니메이션 움직임 시간을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 10,
+            "title": "animation-fill-mode",
+            "desc": "애니메이션이 끝난 후의 상태를 설정합니다.",
+            "descBasic": "animation-fill-mode : stretch",
+            "descApple": "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "애니메이션이 끝난 후의 상태를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 11,
+            "title" : "animation-iteration-count",
+            "desc" : "애니메이션의 반복 횟수를 설정합니다.",
+            "descBasic" : "animation-iteration-count : 0",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "애니메이션의 반복 횟수를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 12,
+            "title" : "animation-name",
+            "desc" : "애니메이션 keyframe 이름을 설정합니다.",
+            "descBasic" : "animation-name : 'name'",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "애니메이션 keyframe 이름을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 13,
+            "title" : "animation-play-state",
+            "desc" : "애니메이션 진행상태를 설정합니다.",
+            "descBasic" : "animation-play-state : ",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "애니메이션 진행상태를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 14,
+            "title" : "animation-timeline",
+            "desc" : ".",
+            "descBasic" : "animation-timeline : ",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                ".",
+                "."
+            ]
+        },
+        {
+            "num": 15,
+            "title" : "animation-timing-function",
+            "desc" : "애니메이션 움직임의 속도를 설정합니다.",
+            "descBasic" : "animation-timing-function : ",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "애니메이션 움직임의 속도를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 16,
+            "title" : "appearance",
+            "desc" : "운영체제 및 브라우저에 기본적으로 설정되어 있는 테마를 기반으로 요소를 표현합니다.",
+            "descBasic" : "appearance",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                ".",
+                "."
+            ]
+        },
+        {
+            "num": 17,
+            "title" : "aspect-ratio",
+            "desc" : "요소의 크기를 비율대로 조정할 수 있게 한다.",
+            "descBasic" : "aspect-ratio",
+            "descApply" : "aspect",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 크기를 비율대로 조정할 수 있게 한다.",
+                "."
+            ]
+        },
+        {
+            "num": 18,
+            "title" : "backdrop-filter",
+            "desc" : "요소 뒤 영역에 흐림이나 색상 시프트 등 그래픽 효과를 적용할 수 있는 속성입니다.",
+            "descBasic" : "backdrop-filter",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소 뒤 영역에 흐림이나 색상 시프트 등 그래픽 효과를 적용할 수 있는 속성입니다.",
+                "."
+            ]
+        },
+        {
+            "num": 19,
+            "title" : "backface-visibility",
+            "desc" : "입체적인 모습의 뒷면의 가시성을 결정하는 속성이다.",
+            "descBasic" : "backface-visibility",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "입체적인 모습의 뒷면의 가시성을 결정하는 속성이다.",
+                "."
+            ]
+        },
+        {
+            "num": 20,
+            "title" : "background",
+            "desc" : "백그라운드 속성을 일괄적로 설정합니다.",
+            "descBasic" : "background",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "백그라운드 속성을 일괄적로 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 21,
+            "title" : "background-attachment",
+            "desc" : "배경 이미지의 고정 여부를 설정합니다.",
+            "descBasic" : "background-attachment",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "배경 이미지의 고정 여부를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 22,
+            "title" : "background-blend-mode",
+            "desc" : "배경을 혼합했을 때 그래픽 효과를 설정합니다.",
+            "descBasic" : "background-blend-mode",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "배경을 혼합했을 때 그래픽 효과를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 23,
+            "title" : "background-clip",
+            "desc" : "백그라운드 이미지의 위치 기준점을 설정합니다.",
+            "descBasic" : "background-clip",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "백그라운드 이미지의 위치 기준점을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 24,
+            "title" : "background-color",
+            "desc" : "백그라운드 색을 설정합니다.",
+            "descBasic" : "background-color : red",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "백그라운드 색을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 25,
+            "title" : "background-image",
+            "desc" : "백그라운드 이미지 속성을 설정합니다.",
+            "descBasic" : "background-image : url('')",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "백그라운드 이미지 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 26,
+            "title" : "background-origin",
+            "desc" : "백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+            "descBasic" : "background-origin",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+                "."
+            ]
+        },
+        {
+            "num": 27,
+            "title" : "background-position",
+            "desc" : "백그라운드 이미지의 위치 영역을 설정합니다.",
+            "descBasic" : "background-position : center",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "백그라운드 이미지의 위치 영역을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 28,
+            "title" : "background-position-x",
+            "desc" : "백그라운드 이미지의 x축위치 영역을 설정합니다.",
+            "descBasic" : "background-position-x : center",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "백그라운드 이미지의 x축위치 영역을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 29,
+            "title" : "background-position-y",
+            "desc" : "백그라운드 이미지의 y축위치 영역을 설정합니다.",
+            "descBasic" : "background-position-y",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "백그라운드 이미지의 y축위치 영역을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 30,
+            "title" : "background-repeat",
+            "desc" : "백그라운드 이미지 반복 여부를 설정합니다.",
+            "descBasic" : "background-repeat",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "백그라운드 이미지 반복 여부를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 31,
+            "title" : "background-size",
+            "desc" : "백그라운드 이미지 사이즈를 설정합니다.",
+            "descBasic" : "background-size : cover",
+            "descApply" : "background",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "백그라운드 이미지 사이즈를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 32,
+            "title" : "block-size",
+            "desc" : "기록 모드에 따라서, 요소의 블록의 수평과 수직 크기를 정의합니다.",
+            "descBasic" : "block-size",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "기록 모드에 따라서, 요소의 블록의 수평과 수직 크기를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 33,
+            "title" : "border",
+            "desc" : "테두리 속성을 일괄적로 설정합니다.",
+            "descBasic" : "border : 1px solid gray",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테두리 속성을 일괄적로 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 34,
+            "title" : "border-block",
+            "desc" : "보더블럭 속성을 지정합니다.",
+            "descBasic" : "border-block",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 속성을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 35,
+            "title" : "border-block-color",
+            "desc" : "보더블럭 색상을 지정합니다.",
+            "descBasic" : "border-block-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 색상을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 36,
+            "title" : "border-block-end",
+            "desc" : "보더블럭 끝부분을 설정합니다.",
+            "descBasic" : "border-block-end",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 끝부분을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 37,
+            "title" : "border-block-end-color",
+            "desc" : "보더블럭 끝부분 색상을 설정합니다.",
+            "descBasic" : "border-block-end-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 끝부분 색상을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 38,
+            "title" : "border-block-end-style",
+            "desc" : "보더블럭 끝부분 스타일을 설정합니다.",
+            "descBasic" : "border-block-end-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 끝부분 스타일을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 39,
+            "title" : "border-block-end-width",
+            "desc" : "보더블럭 끝부분 너비를 설정합니다.",
+            "descBasic" : "border-block-end-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 끝부분 너비를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 40,
+            "title" : "border-block-start",
+            "desc" : "보더블럭의 시작부분을 설정합니다.",
+            "descBasic" : "border-block-start",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭의 시작부분을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 41,
+            "title" : "border-block-start-color",
+            "desc" : "보더블럭 시작부분을 설정합니다.",
+            "descBasic" : "border-block-start-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 시작부분을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 42,
+            "title" : "border-block-start-style",
+            "desc" : "보더블럭 시작부분 스타일을 설정합니다.",
+            "descBasic" : "border-block-start-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 시작부분 스타일을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 43,
+            "title" : "border-block-start-width",
+            "desc" : "보더블럭 시작부분 너비값을 설정합니다.",
+            "descBasic" : "border-block-start-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 시작부분 너비값을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 44,
+            "title" : "border-block-style",
+            "desc" : "보더블럭 스타일을 설정합니다.",
+            "descBasic" : "border-block-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭 스타일을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 45,
+            "title" : "border-block-width",
+            "desc" : "보더블럭의 너비값을 지정합니다.",
+            "descBasic" : "border-block-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보더블럭의 너비값을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 46,
+            "title" : "border-bottom",
+            "desc" : "아래쪽 속성을 일괄적로 설정합니다.",
+            "descBasic" : "border-bottom : 1px soild #000",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "아래쪽 속성을 일괄적로 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 47,
+            "title" : "border-bottom-color",
+            "desc" : "테두리 아래쪽 색 속성을 설정합니다.",
+            "descBasic" : "border-bottom-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테두리 아래쪽 색 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 48,
+            "title" : "border-bottom-left-radius",
+            "desc" : "아래 왼쪽 모서리 굴곡을 설정합니다.",
+            "descBasic" : "border-bottom-left-radius",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "아래 왼쪽 모서리 굴곡을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 49,
+            "title" : "border-bottom-right-radius",
+            "desc" : "아래 오른쪽 모서리 굴곡을 설정합니다.",
+            "descBasic" : "border-bottom-right-radius",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "아래 오른쪽 모서리 굴곡을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 50,
+            "title" : "border-bottom-style",
+            "desc" : "테두리 아래쪽 스타일 속성을 설정합니다.",
+            "descBasic" : "border-bottom-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테두리 아래쪽 스타일 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 51,
+            "title" : "border-bottom-width",
+            "desc" : "테두리 아래쪽 두께 속성을 설정합니다.",
+            "descBasic" : "border-bottom-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테두리 아래쪽 두께 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 52,
+            "title" : "border-collapse : collapse",
+            "desc" : "테이블의 테두리를 겹칠지, 떨어트릴지를 설정합니다.",
+            "descBasic" : "border-collapse",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테이블의 테두리를 겹칠지, 떨어트릴지를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 53,
+            "title" : "border-color",
+            "desc" : "모든 면의 테두리 색상을 설정 합니다.",
+            "descBasic" : "border-color : #fff",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "모든 면의 테두리 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 54,
+            "title" : "border-end-end-radius",
+            "desc" : "요소의 테두리 반경을 설정 합니다.",
+            "descBasic" : "border-end-end-radius",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 테두리 반경을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 55,
+            "title" : "border-end-start-radius",
+            "desc" : "요소의 테두리 반경을 설정 합니다.",
+            "descBasic" : "border-end-start-radius",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 테두리 반경을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 56,
+            "title" : "border-image",
+            "desc" : "테두리의 이미지를 지정합니다.",
+            "descBasic" : "border-image",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테두리의 이미지를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 57,
+            "title" : "border-image-outset",
+            "desc" : "테두리 상자와 테두리 이미지의 거리를 설정 합니다..",
+            "descBasic" : "border-image-outset",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테두리 상자와 테두리 이미지의 거리를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 58,
+            "title" : "border-image-repeat",
+            "desc" : "모서리 영역을 테두리 이미지 크기에 맞춰 설정 합니다.",
+            "descBasic" : "border-image-repeat",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "모서리 영역을 테두리 이미지 크기에 맞춰 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 59,
+            "title" : "border-image-slice",
+            "desc" : "설정한 이미지를 여러개의 영역으로 나눕니다.",
+            "descBasic" : "border-image-slice",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "설정한 이미지를 여러개의 영역으로 나눕니다.",
+                "."
+            ]
+        },
+        {
+            "num": 60,
+            "title" : "border-image-source",
+            "desc" : "테두리 이미지로 사용할 원본 이미지를 설정 합니다.",
+            "descBasic" : "border-image-source",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테두리 이미지로 사용할 원본 이미지를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 61,
+            "title" : "border-image-width",
+            "desc" : "테두리 이미지의 너비를 설정 합니다.",
+            "descBasic" : "border-image-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테두리 이미지의 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 62,
+            "title" : "border-inline",
+            "desc" : "스타일 시트의 한 위치에 개별 논리적 인라인 테두리 속성 값을 설정 합니다.",
+            "descBasic" : "border-inline",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스타일 시트의 한 위치에 개별 논리적 인라인 테두리 속성 값을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 63,
+            "title" : "border-inline-color",
+            "desc" : "모든 인라인 테두리 색상을 설정 합니다.",
+            "descBasic" : "border-inline-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "모든 인라인 테두리 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 64,
+            "title" : "border-inline-end",
+            "desc" : "인라인 엔드 border 속성 값을 설정합니다.",
+            "descBasic" : "border-inline-end",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "인라인 엔드 border 속성 값을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 65,
+            "title" : "border-inline-end-color",
+            "desc" : "개별 논리적 인라인 끝 테두리 색상을 설정 합니다.",
+            "descBasic" : "border-inline-end-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "개별 논리적 인라인 끝 테두리 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 66,
+            "title" : "border-inline-end-style",
+            "desc" : "인라인 끝 테두리 스타일을 설정 합니다.",
+            "descBasic" : "border-inline-end-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "인라인 끝 테두리 스타일을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 67,
+            "title" : "border-inline-end-width",
+            "desc" : "논리적 인라인 끝 테두리 너비를 설정 합니다.",
+            "descBasic" : "border-inline-end-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "논리적 인라인 끝 테두리 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 68,
+            "title" : "border-inline-start",
+            "desc" : "개별 논리적 인라인 시작 테두리 속성 값을 설정 합니다.",
+            "descBasic" : "border-inline-start",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "개별 논리적 인라인 시작 테두리 속성 값을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 69,
+            "title" : "border-inline-start-color",
+            "desc" : "논리적 인라인 시작 테두리 색상을 설정 합니다.",
+            "descBasic" : "border-inline-start-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "논리적 인라인 시작 테두리 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 70,
+            "title" : "border-inline-start-style",
+            "desc" : "논리적 인라인 시작 테두리 스타일을 설정 합니다.",
+            "descBasic" : "border-inline-start-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "논리적 인라인 시작 테두리 스타일을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 71,
+            "title" : "border-inline-start-width",
+            "desc" : "논리적 인라인 시작 테두리 너비를 설정 합니다.",
+            "descBasic" : "border-inline-start-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "논리적 인라인 시작 테두리 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 72,
+            "title" : "border-inline-style",
+            "desc" : "논리적 인라인 테두리 스타일을 설정 합니다.",
+            "descBasic" : "border-inline-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "논리적 인라인 테두리 스타일을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 73,
+            "title" : "border-inline-width",
+            "desc" : "논리적 인라인 테두리 너비를 설정 합니다.",
+            "descBasic" : "border-inline-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "논리적 인라인 테두리 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 74,
+            "title" : "border-left",
+            "desc" : "테두리 왼쪽 너비, 스타일, 색상을 설정 합니다.",
+            "descBasic" : "border-left : 1px soild #000",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "테두리 왼쪽 너비, 스타일, 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 75,
+            "title" : "border-left-color",
+            "desc" : "요소의 왼쪽 테두리의 색상을 설정합니다.",
+            "descBasic" : "border-left-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 왼쪽 테두리의 색상을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 76,
+            "title" : "border-left-style",
+            "desc" : "요소의 왼쪽 테두리의 스타일 속성을 설정합니다.",
+            "descBasic" : "border-left-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 왼쪽 테두리의 스타일 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 77,
+            "title" : "border-left-width",
+            "desc" : "요소의 왼쪽 테두리의 두께를 설정합니다.",
+            "descBasic" : "border-left-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 왼쪽 테두리의 두께를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 78,
+            "title" : "border-radius",
+            "desc" : "요소의 테두리 굴곡을 설정합니다.",
+            "descBasic" : "border-radius : 30%",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "요소의 테두리 굴곡을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 79,
+            "title" : "border-right",
+            "desc" : "요소의 오른쪽 테두리 속성을 일괄적으로 설정합니다.",
+            "descBasic" : "border-right : 1px soild #000",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "요소의 오른쪽 테두리 속성을 일괄적으로 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 80,
+            "title" : "border-right-color",
+            "desc" : "요소의 오른쪽 테두리의 색상을 설정합니다.",
+            "descBasic" : "border-right-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 오른쪽 테두리의 색상을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 81,
+            "title" : "border-right-style",
+            "desc" : "요소의 오른쪽 테두리의 스타일 속성을 설정합니다.",
+            "descBasic" : "border-right-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 오른쪽 테두리의 스타일 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 82,
+            "title" : "border-right-width",
+            "desc" : "요소의 오른쪽 테두리의 두께를 설정합니다.",
+            "descBasic" : "border-right-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 오른쪽 테두리의 두께를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 83,
+            "title" : "border-spacing",
+            "desc" : "테이블의 테두리 사이의 간격을 설정합니다.",
+            "descBasic" : "border-spacing",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테이블의 테두리 사이의 간격을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 84,
+            "title" : "border-start-end-radius",
+            "desc" : "논리적 테두리 반경을 설정 합니다.",
+            "descBasic" : "border-start-end-radius",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "논리적 테두리 반경을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 85,
+            "title" : "border-start-start-radius",
+            "desc" : "논리적 테두리 반경을 설정 합니다.",
+            "descBasic" : "border-start-start-radius",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "논리적 테두리 반경을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 86,
+            "title" : "border-style",
+            "desc" : "요소의 테두리 스타일 속성을 설정합니다.",
+            "descBasic" : "border-style : none",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 테두리 스타일 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 87,
+            "title" : "border-top",
+            "desc" : "요소의 위쪽 테두리 속성을 일괄적으로 설정합니다.",
+            "descBasic" : "border-top : 1px soild #000",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "요소의 위쪽 테두리 속성을 일괄적으로 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 88,
+            "title" : "border-top-color",
+            "desc" : "요소의 위쪽 테두리의 색상을 설정합니다.",
+            "descBasic" : "border-top-color",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 위쪽 테두리의 색상을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 89,
+            "title" : "border-top-left-radius",
+            "desc" : "요소의 위쪽 왼쪽 모서리의 굴곡을 설정합니다.",
+            "descBasic" : "border-top-left-radius",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 위쪽 왼쪽 모서리의 굴곡을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 90,
+            "title" : "border-top-right-radius",
+            "desc" : "요소의 위쪽 오른쪽 모서리의 굴곡을 설정합니다.",
+            "descBasic" : "border-top-right-radius",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 위쪽 오른쪽 모서리의 굴곡을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 91,
+            "title" : "border-top-style",
+            "desc" : "요소의 위쪽 테두리의 스타일 속성을 설정합니다.",
+            "descBasic" : "border-top-style",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 위쪽 테두리의 스타일 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 92,
+            "title" : "border-top-width",
+            "desc" : "요소의 위쪽 테두리의 두께를 설정합니다.",
+            "descBasic" : "border-top-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 위쪽 테두리의 두께를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 93,
+            "title" : "border-width",
+            "desc" : "요소의 테두리의 두께를 설정합니다.",
+            "descBasic" : "border-width",
+            "descApply" : "border",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 테두리의 두께를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 94,
+            "title" : "bottom",
+            "desc" : "요소의 아래쪽에서의 위치를 설정합니다.",
+            "descBasic" : "bottom : 0px",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 아래쪽에서의 위치를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 95,
+            "title" : "box-decoration-break",
+            "desc" : "분할될 때 요소의 조각을 렌더링 하는 방법을 설정 합니다.",
+            "descBasic" : "box-decoration-break",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "분할될 때 요소의 조각을 렌더링 하는 방법을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 96,
+            "title" : "box-shadow",
+            "desc" : "박스 그림자 효과를 설정 합니다..",
+            "descBasic" : "box-shadow : inset(1px)",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "박스 그림자 효과를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 97,
+            "title" : "box-sizing",
+            "desc" : "브라우저가 요소의 크기를 어떻게 계산할지를 설정합니다.",
+            "descBasic" : "box-sizing : content-box",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "브라우저가 요소의 크기를 어떻게 계산할지를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 98,
+            "title" : "break-after",
+            "desc" : "박스 나누기가 작동하는 방식을 설정 합니다. 상자가 없으면 속성이 무시됩니다.",
+            "descBasic" : "break-after",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "박스 나누기가 작동하는 방식을 설정 합니다. 상자가 없으면 속성이 무시됩니다.",
+                "."
+            ]
+        },
+        {
+            "num": 99,
+            "title" : "break-before",
+            "desc" : "박스 나누기가 작동하는 방식을 설정 합니다. 상자가 없으면 속성이 무시됩니다.",
+            "descBasic" : "break-before",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "박스 나누기가 작동하는 방식을 설정 합니다. 상자가 없으면 속성이 무시됩니다.",
+                "."
+            ]
+        },
+        {
+            "num": 100,
+            "title" : "break-inside",
+            "desc" : "박스 나누기가 작동하는 방식을 설정 합니다. 상자가 없으면 속성이 무시됩니다.",
+            "descBasic" : "break-inside",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "박스 나누기가 작동하는 방식을 설정 합니다. 상자가 없으면 속성이 무시됩니다.",
+                "."
+            ]
+        },
+        {
+            "num": 101,
+            "title" : "caption-side",
+            "desc" : "테이블 내용을 지정된 쪽에 배치 합니다.",
+            "descBasic" : "caption-side",
+            "descApply" : "table",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "테이블 내용을 지정된 쪽에 배치 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 102,
+            "title" : "caret-color",
+            "desc" : "삽입 캐럿의 색상을 설정 합니다. 이것은 텍스트 입력 커서라고도 합니다.",
+            "descBasic" : "caret-color",
+            "descApply" : "",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "삽입 캐럿의 색상을 설정 합니다. 이것은 텍스트 입력 커서라고도 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 103,
+            "title" : "clear : both",
+            "desc" : "버그를 제거해줍니다.",
+            "descBasic" : "clear",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "버그를 제거해줍니다.",
+                "."
+            ]
+        },
+        {
+            "num": 104,
+            "title" : "clip",
+            "desc" : "요소의 특정 부분만 나오도록 할 수 있습니다.",
+            "descBasic" : "clip",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 특정 부분만 나오도록 할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 105,
+            "title" : "clip-path",
+            "desc" : "이미지나 요소를 말 그대로 클립(잘라내기)할 수 있는 속성",
+            "descBasic" : "clip-path",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "이미지나 요소를 말 그대로 클립(잘라내기)할 수 있는 속성",
+                "."
+            ]
+        },
+        {
+            "num": 106,
+            "title" : "color",
+            "desc" : "텍스트의 색상을 설정합니다.",
+            "descBasic" : "color : #fff",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트의 색상을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 107,
+            "title" : "color-scheme",
+            "desc" : "렌더링할 수 있는 색 구성표를 나타냅니다.",
+            "descBasic" : "color-scheme",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "렌더링할 수 있는 색 구성표를 나타냅니다.",
+                "."
+            ]
+        },
+        {
+            "num": 108,
+            "title" : "column-count",
+            "desc" : "요소의 내용을 지정된 수의 열로 나눕니다.",
+            "descBasic" : "column-count",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 내용을 지정된 수의 열로 나눕니다.",
+                "."
+            ]
+        },
+        {
+            "num": 109,
+            "title" : "column-fill",
+            "desc" : "열로 나눌 때 요소의 균형을 이루는 방법을 제어 합니다.",
+            "descBasic" : "column-fill",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "열로 나눌 때 요소의 균형을 이루는 방법을 제어 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 110,
+            "title" : "column-gap (grid-column-gap)",
+            "desc" : "열 사이의 간격 크기를 설정 합니다.",
+            "descBasic" : "column-gap (grid-column-gap)",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "열 사이의 간격 크기를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 111,
+            "title" : "column-rule",
+            "desc" : "다중 열 레이아웃에서 열 사이에 그려지는 선의 너비, 스타일 및 색상을 설정 합니다.",
+            "descBasic" : "column-rule",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "다중 열 레이아웃에서 열 사이에 그려지는 선의 너비, 스타일 및 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 112,
+            "title" : "column-rule-color",
+            "desc" : "다중 열 레이아웃에서 열 사이에 그려지는 선의 색상을 설정 합니다.",
+            "descBasic" : "column-rule-color",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "다중 열 레이아웃에서 열 사이에 그려지는 선의 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 113,
+            "title" : "column-rule-style",
+            "desc" : "다중 열 레이아웃에서 열 사이에 그려지는 선의 스타일을 설정 합니다.",
+            "descBasic" : "column-rule-style",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "다중 열 레이아웃에서 열 사이에 그려지는 선의 스타일을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 114,
+            "title" : "column-rule-width",
+            "desc" : "다중 열 레이아웃에서 열 사이에 그려지는 선의 너비를 설정 합니다.",
+            "descBasic" : "column-rule-width",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "다중 열 레이아웃에서 열 사이에 그려지는 선의 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 115,
+            "title" : "column-span",
+            "desc" : "다중 열 레이아웃에서 이상적인 컬럼 폭을 설정한다.",
+            "descBasic" : "column-span",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "다중 열 레이아웃에서 이상적인 컬럼 폭을 설정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 116,
+            "title" : "column-width",
+            "desc" : "다중 열 레이아웃에서 이상적인 컬럼 폭을 설정한다.",
+            "descBasic" : "column-width",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "다중 열 레이아웃에서 이상적인 컬럼 폭을 설정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 117,
+            "title" : "columns",
+            "desc" : "내용을 그릴 때 사용할 열 수와 해당 열의 너비를 설정 합니다.",
+            "descBasic" : "columns",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "내용을 그릴 때 사용할 열 수와 해당 열의 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 118,
+            "title" : "contain",
+            "desc" : "특정 요소와 콘텐츠가 문서 트리의 다른 부위와 독립되어있음을 나타낼 때 사용합니다.",
+            "descBasic" : "contain",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "특정 요소와 콘텐츠가 문서 트리의 다른 부위와 독립되어있음을 나타낼 때 사용합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 119,
+            "title" : "content",
+            "desc" : "엘리먼트의 앞(:before)이나 뒤(:after)에 내용을 생성합니다.",
+            "descBasic" : "content : ''",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "엘리먼트의 앞(:before)이나 뒤(:after)에 내용을 생성합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 120,
+            "title" : "content-visibility",
+            "desc" : "요소가 콘텐츠를 전혀 렌더링하는지 여부를 제어하고 강력한 포함 세트를 강제하여 사용자 에이전트가 필요할 때까지 많은 레이아웃 및 렌더링 작업을 잠재적으로 생략할 수 있습니다.",
+            "descBasic" : "content-visibility",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소가 콘텐츠를 전혀 렌더링하는지 여부를 제어하고 강력한 포함 세트를 강제하여 사용자 에이전트가 필요할 때까지 많은 레이아웃 및 렌더링 작업을 잠재적으로 생략할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 121,
+            "title" : "counter-increment",
+            "desc" : "카운터 값을 주어진 값 만큼 늘리거나 줄 입니다.",
+            "descBasic" : "counter-increment",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "카운터 값을 주어진 값 만큼 늘리거나 줄 입니다.",
+                "."
+            ]
+        },
+        {
+            "num": 122,
+            "title" : "counter-reset",
+            "desc" : "카운터를 주어진 값으로 재설정 합니다.",
+            "descBasic" : "counter-reset",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "카운터를 주어진 값으로 재설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 123,
+            "title" : "counter-set",
+            "desc" : "카운터를 주어진 값으로 설정 합니다.",
+            "descBasic" : "counter-set",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "카운터를 주어진 값으로 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 124,
+            "title" : "cursor",
+            "desc" : "요소 위에 마우스 커서가 올라갔을 때 보여줄 모양을 지정합니다.",
+            "descBasic" : "cursor : pointer",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "요소 위에 마우스 커서가 올라갔을 때 보여줄 모양을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 125,
+            "title" : "direction",
+            "desc" : "텍스트,테이블 열 및 가로 오버프롤의 방향을 설정 합니다.",
+            "descBasic" : "direction",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트,테이블 열 및 가로 오버프롤의 방향을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 126,
+            "title" : "display",
+            "desc" : "요소를 어떻게 보여줄지를 결정합니다.",
+            "descBasic" : "display:none",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소를 어떻게 보여줄지를 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 127,
+            "title" : "empty-cells",
+            "desc" : "보이는 내용이 없는 셀 주위에 테두리와 배경을 표시할지 여부를 설정 합니다.",
+            "descBasic" : "empty-cells",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "보이는 내용이 없는 셀 주위에 테두리와 배경을 표시할지 여부를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 128,
+            "title" : "filter",
+            "desc" : "흐림 효과나 변형 효과를 나타냅니다.",
+            "descBasic" : "filter",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "흐림 효과나 변형 효과를 나타냅니다.",
+                "."
+            ]
+        },
+        {
+            "num": 129,
+            "title" : "flex",
+            "desc" : "플렉스 아이템이 자신의 컨테이너가 차지하는 공간에 맞추기 위해 크기를 키우거나 줄이는 방법을 설정하는 속성 입니다.",
+            "descBasic" : "flex",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "플렉스 아이템이 자신의 컨테이너가 차지하는 공간에 맞추기 위해 크기를 키우거나 줄이는 방법을 설정하는 속성 입니다.",
+                ""
+            ]
+        },
+        {
+            "num": 130,
+            "title" : "flex-basis",
+            "desc" : "플렉스 초기 기본 크기를 설정 합니다.",
+            "descBasic" : "flex-basis : 30%",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "플렉스 초기 기본 크기를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 131,
+            "title" : "flex-direction",
+            "desc" : "아이템이 플렉스 컨테이너 안에 위치되는 방법을 설정 합니다.",
+            "descBasic" : "flex-direction : row",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "아이템이 플렉스 컨테이너 안에 위치되는 방법을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 132,
+            "title" : "flex-flow",
+            "desc" : "플렉스 방향, 포장의 속성을 설정 합니다.",
+            "descBasic" : "flex-flow",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "플렉스 방향, 포장의 속성을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 133,
+            "title" : "flex-grow",
+            "desc" : "플렉스 아이템 요소가 컨테이너 내부의 정도를 제한합니다.",
+            "descBasic" : "flex-grow",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "플렉스 아이템 요소가 컨테이너 내부의 정도를 제한합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 134,
+            "title" : "flex-shrink",
+            "desc" : "플렉스 아이템 요소의 flex-shrink을 설정 합니다.",
+            "descBasic" : "flex-shrink",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "플렉스 아이템 요소의 flex-shrink을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 135,
+            "title" : "flex-wrap",
+            "desc" : "플렉스 아이템을 wrap으로 감쌉니다.",
+            "descBasic" : "flex-wrap : wrap",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "플렉스 아이템을 wrap으로 감쌉니다.",
+                "."
+            ]
+        },
+        {
+            "num": 136,
+            "title" : "float",
+            "desc" : "레이아웃 흐름에서 벗어나 요소의 모서리가 페이지 왼쪽이나 오른쪽에 이동한다.",
+            "descBasic" : "float : left",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "레이아웃 흐름에서 벗어나 요소의 모서리가 페이지 왼쪽이나 오른쪽에 이동한다.",
+                ""
+            ]
+        },
+        {
+            "num": 137,
+            "title" : "font",
+            "desc" : "텍스트에 대해 설정 합니다.",
+            "descBasic" : "font",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트에 대해 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 138,
+            "title" : "font-family",
+            "desc" : "선택한 항목에 우선 순위가 더 높은 글꼴 패밀리 이름을 추가 합니다.",
+            "descBasic" : "font-family : Malgun Gothic",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "선택한 항목에 우선 순위가 더 높은 글꼴 패밀리 이름을 추가 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 139,
+            "title" : "font-feature-settings",
+            "desc" : "다양한 모바일타입 피처를 설정 합니다.",
+            "descBasic" : "font-feature-settings",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "다양한 모바일타입 피처를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 140,
+            "title" : "font-kerning",
+            "desc" : "글꼴에 커닝 정보의 사용을 설정 합니다.",
+            "descBasic" : "font-kerning",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "글꼴에 커닝 정보의 사용을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 141,
+            "title" : "font-language-override",
+            "desc" : "서체에서 언어별 글리프의 사용을 제어 합니다.",
+            "descBasic" : "font-language-override",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "서체에서 언어별 글리프의 사용을 제어 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 142,
+            "title" : "font-optical-sizing",
+            "desc" : "텍스트 렌더링이 다양한 크기로 보기에 최적화되어 있는지 여부를 설정 합니다.",
+            "descBasic" : "font-optical-sizing",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트 렌더링이 다양한 크기로 보기에 최적화되어 있는지 여부를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 143,
+            "title" : "font-size",
+            "desc" : "폰트 크기를 설정 합니다..",
+            "descBasic" : "font-size",
+            "descApply" : "font : 20px",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "폰트 크기를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 144,
+            "title" : "font-size-adjust",
+            "desc" : "현재 글꼴 크기를 기준으로 소문자 크기를 설정 합니다.",
+            "descBasic" : "font-size-adjust",
+            "descApply" : "font : 20px",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "현재 글꼴 크기를 기준으로 소문자 크기를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 145,
+            "title" : "font-stretch",
+            "desc" : "글꼴에서 일반, 축소 또는 확장된 면을 선택합니다.",
+            "descBasic" : "font-stretch",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "글꼴에서 일반, 축소 또는 확장된 면을 선택합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 146,
+            "title" : "font-style",
+            "desc" : "글꼴의 스타일을 설정 합니다.",
+            "descBasic" : "font-style : normal",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "글꼴의 스타일을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 147,
+            "title" : "font-synthesis",
+            "desc" : "브라우저가 굵은 글꼴과 이탤릭 글꼴을 합성하는 것을 허용할지 설정합니다.",
+            "descBasic" : "font-synthesis",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "브라우저가 굵은 글꼴과 이탤릭 글꼴을 합성하는 것을 허용할지 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 148,
+            "title" : "font-variant",
+            "desc" : "글꼴에 대한 모든 글꼴 변형을 설정 합니다.",
+            "descBasic" : "font-variant",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "글꼴에 대한 모든 글꼴 변형을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 149,
+            "title" : "font-variant-alternates",
+            "desc" : "대체 글리프의 사용을 제어합니다.",
+            "descBasic" : "font-variant-alternates",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "대체 글리프의 사용을 제어합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 150,
+            "title" : "font-variant-caps",
+            "desc" : "대문자를위한 대체 글리프의 사용을 제어합니다.",
+            "descBasic" : "font-variant-caps",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "대문자를위한 대체 글리프의 사용을 제어합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 151,
+            "title" : "font-variant-east-asian",
+            "desc" : "일본어 및 중국어와 같은 동아시아 스크립트에 대한 대체 글리프 사용을 제어합니다..",
+            "descBasic" : "font-variant-east-asian",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "일본어 및 중국어와 같은 동아시아 스크립트에 대한 대체 글리프 사용을 제어합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 152,
+            "title" : "font-variant-ligatures",
+            "desc" : "텍스트 콘텐츠에 사용되는 합자 및 컨텍스트 형식을 제어합니다.",
+            "descBasic" : "font-variant-ligatures",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트 콘텐츠에 사용되는 합자 및 컨텍스트 형식을 제어합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 153,
+            "title" : "font-variant-numeric",
+            "desc" : "숫자, 분수 및 서수 마커에 대한 대체 글리프의 사용을 제어합니다.",
+            "descBasic" : "font-variant-numeric",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "숫자, 분수 및 서수 마커에 대한 대체 글리프의 사용을 제어합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 154,
+            "title" : "font-variant-position",
+            "desc" : "위 첨자 또는 아래 첨자로 배치되는 더 작은 대체 글리프의 사용을 제어합니다.",
+            "descBasic" : "font-variant-position",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "위 첨자 또는 아래 첨자로 배치되는 더 작은 대체 글리프의 사용을 제어합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 155,
+            "title" : "font-variation-settings",
+            "desc" : "변경하려는 특성의 4글자 축 이름을 해당 값과 함께 지정하여 가변 글꼴 특성에 대한 저수준 제어를 제공합니다.",
+            "descBasic" : "font-variation-settings",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "변경하려는 특성의 4글자 축 이름을 해당 값과 함께 지정하여 가변 글꼴 특성에 대한 저수준 제어를 제공합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 156,
+            "title" : "font-weight",
+            "desc" : "글꼴의 두께를 지정한다.",
+            "descBasic" : "font-weight : 500",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "글꼴의 두께를 지정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 157,
+            "title" : "forced-color-adjust",
+            "desc" : "강제 색상 모드 중 선택 하여 특정 요소에 대한 저장을 할 수 있습니다.",
+            "descBasic" : "forced-color-adjust",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "강제 색상 모드 중 선택 하여 특정 요소에 대한 저장을 할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 158,
+            "title" : "gap (grid-gap)",
+            "desc" : "정과 열 사이의 거리를 설정 합니다.",
+            "descBasic" : "gap (grid-gap)",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "정과 열 사이의 거리를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 159,
+            "title" : "grid",
+            "desc" : "표 형태의 레이아웃을 만들 수 있는 속성입니다.",
+            "descBasic" : "grid",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "표 형태의 레이아웃을 만들 수 있는 속성입니다.",
+                "."
+            ]
+        },
+        {
+            "num": 160,
+            "title" : "grid-area",
+            "desc" : "영역(Area) 이름을 설정합니다.",
+            "descBasic" : "grid-area",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "영역(Area) 이름을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 161,
+            "title" : "grid-auto-columns",
+            "desc" : "암시 적로 생성 된 그리드 컬럼의 크기를 지정 트랙 이나 트랙의 패턴을 지정합니다.",
+            "descBasic" : "grid-auto-columns",
+            "descApply" : "",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "암시 적로 생성 된 그리드 컬럼의 크기를 지정 트랙 이나 트랙의 패턴을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 162,
+            "title" : "grid-auto-flow",
+            "desc" : "자동 배치 알고리즘이 작동하는 방식을 제어하여 자동 배치 항목이 그리드로 흐르는 방식을 정확히 지정 합니다.",
+            "descBasic" : "grid-auto-flow",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "자동 배치 알고리즘이 작동하는 방식을 제어하여 자동 배치 항목이 그리드로 흐르는 방식을 정확히 지정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 163,
+            "title" : "grid-auto-rows",
+            "desc" : "암시적으로 생성된 그리드 행 트랙 또는 트랙 패턴의 크기를 지정 합니다.",
+            "descBasic" : "grid-auto-rows",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "암시적으로 생성된 그리드 행 트랙 또는 트랙 패턴의 크기를 지정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 164,
+            "title" : "grid-column",
+            "desc" : "그리드 항목의 크기와 위치를 지정하고 그리드 영역의 인라인 시작 및 인라인 끝 가장자리를 지정합니다.",
+            "descBasic" : "grid-column",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드 항목의 크기와 위치를 지정하고 그리드 영역의 인라인 시작 및 인라인 끝 가장자리를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 165,
+            "title" : "grid-column-end",
+            "desc" : "그리드 열 내에서 그리드 항목의 끝 위치를 지정하여 그리드 영역의 블록 끝 가장자리를 지정 합니다.",
+            "descBasic" : "grid-column-end",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드 열 내에서 그리드 항목의 끝 위치를 지정하여 그리드 영역의 블록 끝 가장자리를 지정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 166,
+            "title" : "grid-column-start",
+            "desc" : "특정 item을 표시하기 시작할 열을 지정합니다.",
+            "descBasic" : "grid-column-start",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "특정 item을 표시하기 시작할 열을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 167,
+            "title" : "grid-row",
+            "desc" : "그리드 열 내에서 그리드 항목의 시작 위치를 지정합니다.",
+            "descBasic" : "grid-row",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드 열 내에서 그리드 항목의 시작 위치를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 168,
+            "title" : "grid-row-end",
+            "desc" : "그리드 행 네에서 그리드 항목의 끝 위치를 지정함으로써 그리드 영역의 인라인 끝 가장자리를 지정합니다.",
+            "descBasic" : "grid-row-end",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드 행 네에서 그리드 항목의 끝 위치를 지정함으로써 그리드 영역의 인라인 끝 가장자리를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 169,
+            "title" : "grid-row-start",
+            "desc" : "그리드 행 내에서 그리드 항목의 시작 위치를 지정함으로써 그리드 영역의 인라인 시작 가장자리를 지정합니다.",
+            "descBasic" : "grid-row-start",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드 행 내에서 그리드 항목의 시작 위치를 지정함으로써 그리드 영역의 인라인 시작 가장자리를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 170,
+            "title" : "grid-template",
+            "desc" : "그리드의 열, 행 및 지역을 정의하기위한 약식속성입니다.",
+            "descBasic" : "grid-template",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드의 열, 행 및 지역을 정의하기위한 약식속성입니다.",
+                "."
+            ]
+        },
+        {
+            "num": 171,
+            "title" : "grid-template-areas",
+            "desc" : "명명된 격자 영역을 지정하고 격자에 셀을 설정하고 이름을 할당합니다.",
+            "descBasic" : "grid-template-areas : 100px 100px 100px",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "명명된 격자 영역을 지정하고 격자에 셀을 설정하고 이름을 할당합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 172,
+            "title" : "grid-template-columns",
+            "desc" : "그리드 넓이를 지정한다.",
+            "descBasic" : "grid-template-columns",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "그리드 넓이를 지정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 173,
+            "title" : "grid-template-rows",
+            "desc" : "그리드 높이를 지정한다.",
+            "descBasic" : "grid-template-rows",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "그리드 높이를 지정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 174,
+            "title" : "hanging-punctuation",
+            "desc" : "문장 부호가 텍스트 줄의 시작 또는 끝에 매달려야 하는지 여부를 지정합니다.",
+            "descBasic" : "hanging-punctuation",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "문장 부호가 텍스트 줄의 시작 또는 끝에 매달려야 하는지 여부를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 175,
+            "title" : "height",
+            "desc" : "요소의 높이를 지정한다.",
+            "descBasic" : "height : 20px",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 높이를 지정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 176,
+            "title" : "hyphenate-character",
+            "desc" : "하이픈 나누기 전 줄 끝에서 사용되는 문자(또는 문자열)를 설정합니다.",
+            "descBasic" : "hyphenate-character",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "하이픈 나누기 전 줄 끝에서 사용되는 문자(또는 문자열)를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 177,
+            "title" : "hyphens",
+            "desc" : "여러 줄에 걸치는 텍스트에서 단어에 붙임표를 추가하는 방식을 설정 합니다.",
+            "descBasic" : "hyphens",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "여러 줄에 걸치는 텍스트에서 단어에 붙임표를 추가하는 방식을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 178,
+            "title" : "image-orientation",
+            "desc" : "이미지 방향에 대한 레이아웃 독립적 수정을 지정합니다.",
+            "descBasic" : "image-orientation",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "이미지 방향에 대한 레이아웃 독립적 수정을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 179,
+            "title" : "image-orientation",
+            "desc" : "렌더링에 대한 이미지를 제공합니다.",
+            "descBasic" : "image-orientation",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "렌더링에 대한 이미지를 제공합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 180,
+            "title" : "image-resolution",
+            "desc" : "요소에서 사용되는 모든 래스터 이미지의 고유 해상도를 지정합니다.",
+            "descBasic" : "image-resolution",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소에서 사용되는 모든 래스터 이미지의 고유 해상도를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 181,
+            "title" : "ime-mode",
+            "desc" : "IME(Input Method Editor)의 상태를 반환하거나 설정합니다.",
+            "descBasic" : "ime-mode",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "IME(Input Method Editor)의 상태를 반환하거나 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 182,
+            "title" : "initial-letter",
+            "desc" : "떨어뜨림, 올리기 및 움푹 들어간 이니셜 문자에 대한 스타일을 설정 합니다.",
+            "descBasic" : "initial-letter",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "떨어뜨림, 올리기 및 움푹 들어간 이니셜 문자에 대한 스타일을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 183,
+            "title" : "initial-letter-align",
+            "desc" : "단락 내에서 초기 문자의 정렬을 지정합니다.",
+            "descBasic" : "initial-letter-align",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "단락 내에서 초기 문자의 정렬을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 184,
+            "title" : "inline-size",
+            "desc" : "쓰기 모드에 따라 요소 블록의 가로 또는 세로 크기를 정의합니다.",
+            "descBasic" : "inline-size",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "쓰기 모드에 따라 요소 블록의 가로 또는 세로 크기를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 185,
+            "title" : "inset",
+            "desc" : "상하좌우값을 지정해 줄수 있는 css 속성.",
+            "descBasic" : "inset",
+            "descApply" : ".",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "상하좌우값을 지정해 줄수 있는 css 속성",
+                "."
+            ]
+        },
+        {
+            "num": 186,
+            "title" : "inset-block",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 실제 오프셋에 매핑하는 요소의 논리 블록의 시작과 끝 오프셋을 정의합니다.",
+            "descBasic" : "inset-block",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 실제 오프셋에 매핑하는 요소의 논리 블록의 시작과 끝 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 187,
+            "title" : "inset-block-end",
+            "desc" : "요소의 쓰기모드, 방향 및 텍스트 방향에 따라 물리적 인세트에 매핑되는 요소의 논리적 블록 끝 오프셋을 정의합니다.",
+            "descBasic" : "inset-block-end",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기모드, 방향 및 텍스트 방향에 따라 물리적 인세트에 매핑되는 요소의 논리적 블록 끝 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 188,
+            "title" : "inset-block-start",
+            "desc" : "요소의 쓰기모드, 방향 및 텍스트 방향에 따라 물리적 인세트에 매핑되는 요소의 논리적 블록 시작 오프셋을 정의합니다.",
+            "descBasic" : "inset-block-start",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기모드, 방향 및 텍스트 방향에 따라 물리적 인세트에 매핑되는 요소의 논리적 블록 시작 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 189,
+            "title" : "inset-inline",
+            "desc" : "인라인 방향으로 요소의 논리적 시작 및 끝 오프셋을 정의합니다.",
+            "descBasic" : "inset-inline",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "인라인 방향으로 요소의 논리적 시작 및 끝 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 190,
+            "title" : "inset-inline-end",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 오프셋에 매핑하는 요소의 논리적 인라인 최종 삽입을 정의합니다.",
+            "descBasic" : "inset-inline-end",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 오프셋에 매핑하는 요소의 논리적 인라인 최종 삽입을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 191,
+            "title" : "inset-inline-start",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 오프셋에 매핑하는 요소의 논리적 인라인 시작 인세트를 정의합니다.",
+            "descBasic" : "inset-inline-start",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 오프셋에 매핑하는 요소의 논리적 인라인 시작 인세트를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 192,
+            "title" : "isolation",
+            "desc" : "요소가 새로운 쌓임 맥락을 생성해야 하는지 지정합니다.",
+            "descBasic" : "isolation",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소가 새로운 쌓임 맥락을 생성해야 하는지 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 193,
+            "title" : "justify-content",
+            "desc" : "플렉스 컨테이너의 기본 축과 그리드 컨테이너의 인라인 축을 기준으로 아이템들을 정렬 합니다.",
+            "descBasic" : "justify-content",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "플렉스 컨테이너의 기본 축과 그리드 컨테이너의 인라인 축을 기준으로 아이템들을 정렬 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 194,
+            "title" : "justify-items",
+            "desc" : "상자의 모든 항목에 대한 기본값을 정의합니다.",
+            "descBasic" : "justify-items",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "상자의 모든 항목에 대한 기본값을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 195,
+            "title" : "justify-self",
+            "desc" : "적절한 축을 따라 정렬 컨테이너 내부에서 상자가 정렬되는 방식을 설정 합니다.",
+            "descBasic" : "justify-self",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "적절한 축을 따라 정렬 컨테이너 내부에서 상자가 정렬되는 방식을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 196,
+            "title" : "left",
+            "desc" : "배치된 요소의 수평 위치 지정에 참여합니다.",
+            "descBasic" : "left",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "배치된 요소의 수평 위치 지정에 참여합니다.",
+                "." 
+            ]
+        },
+        {
+            "num": 197,
+            "title" : "letter-spacing",
+            "desc" : "텍스트 문자 사이의 수평 간격 동작을 설정합니다.",
+            "descBasic" : "letter-spacing",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트 문자 사이의 수평 간격 동작을 설정합니다.",
+                "글자사이의 간격 지정"
+            ]
+        },
+        {
+            "num": 198,
+            "title" : "line-break",
+            "desc" : "줄 바꿈 규칙을 어떻게 할지 결정합니다.",
+            "descBasic" : "line-break",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "줄 바꿈 규칙을 어떻게 할지 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 199,
+            "title" : "line-height",
+            "desc" : "인라인 박스의 높이를 지정한다.",
+            "descBasic" : "line-height",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "인라인 박스의 높이를 지정한다.",
+                ""
+            ]
+        },
+        {
+            "num": 200,
+            "title" : "line-height-step",
+            "desc" : "라인 상자 높이의 단계 단위를 설정 합니다.",
+            "descBasic" : "line-height-step",
+            "descApply" : "",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "라인 상자 높이의 단계 단위를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 201,
+            "title" : "list-style",
+            "desc" : "모든 목록 스타일 속성을 설정 합니다.",
+            "descBasic" : "list-style",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "모든 목록 스타일 속성을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 202,
+            "title" : "list-style-image",
+            "desc" : "목록 항목 마커로 사용할 이미지를 설정 합니다.",
+            "descBasic" : "list-style-image",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "목록 항목 마커로 사용할 이미지를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 203,
+            "title" : "list-style-position",
+            "desc" : "목록 항목에 대한 상대 위치를 설정 합니다.",
+            "descBasic" : "list-style-position",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "목록 항목에 대한 상대 위치를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 204,
+            "title" : "list-style-type",
+            "desc" : "목록 항목 요소의 마커를 설정 합니다.",
+            "descBasic" : "list-style-type",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "목록 항목 요소의 마커를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 205,
+            "title" : "margin",
+            "desc" : "요소 사이의 간격을 설정 합니다.",
+            "descBasic" : "margin",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소 사이의 간격을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 206,
+            "title" : "margin-block",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 한계에 매핑하는 요소의 논리 블록의 시작과 끝 여백을 정의합니다.",
+            "descBasic" : "margin-block",
+            "descApply" : "",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 한계에 매핑하는 요소의 논리 블록의 시작과 끝 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 207,
+            "title" : "margin-block-end",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 한계에 매핑하는 요소의 논리적 블록 끝 마진을 정의합니다.",
+            "descBasic" : "margin-block-end",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 한계에 매핑하는 요소의 논리적 블록 끝 마진을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 208,
+            "title" : "margin-block-start",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 한계에 매핑하는 요소의 논리 블록 시작 마진을 정의합니다.",
+            "descBasic" : "margin-block-start",
+            "descApply" : "",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 한계에 매핑하는 요소의 논리 블록 시작 마진을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 209,
+            "title" : "margin-bottom",
+            "desc" : "요소 밑에 쪽 마진을 설정합니다.",
+            "descBasic" : "margin-bottom",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소 밑에 쪽 마진을 설정합니다.",
+                ""
+            ]
+        },
+        {
+            "num": 210,
+            "title" : "margin-inline",
+            "desc" : "쓰기모드,방향 및 텍스트 방향에 따라 물리적 여백에 매핑되는 요소의 논리적 인라인 시작 및 끝 여백을 모두 정의합니다.",
+            "descBasic" : "margin-inline",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "쓰기모드,방향 및 텍스트 방향에 따라 물리적 여백에 매핑되는 요소의 논리적 인라인 시작 및 끝 여백을 모두 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 211,
+            "title" : "margin-inline-end",
+            "desc" : "쓰기모드,방향 및 텍스트 방향에 따라 물리적 여백에 매핑되는 요소의 논리적 인라인 끝 여백을 정의합니다.",
+            "descBasic" : "margin-inline-end",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "쓰기모드,방향 및 텍스트 방향에 따라 물리적 여백에 매핑되는 요소의 논리적 인라인 끝 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 212,
+            "title" : "margin-inline-start",
+            "desc" : "쓰기모드,방향 및 텍스트 방향에 따라 물리적 여백에 매핑되는 요소의 논리적 인라인 시작 여백을 정의합니다.",
+            "descBasic" : "margin-inline-start",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "쓰기모드,방향 및 텍스트 방향에 따라 물리적 여백에 매핑되는 요소의 논리적 인라인 시작 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 213,
+            "title" : "margin-left",
+            "desc" : "요소의 왼쪽에 여백 영역을 설정 합니다.",
+            "descBasic" : "margin-left",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 왼쪽에 여백 영역을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 214,
+            "title" : "margin-right",
+            "desc" : "요소의 오른쪽 여백 영역을 설정 합니다.",
+            "descBasic" : "margin-right",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 오른쪽 여백 영역을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 215,
+            "title" : "margin-top",
+            "desc" : "요소의 상단 여백 영역을 설정 합니다.",
+            "descBasic" : "margin-top",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 상단 여백 영역을 설정 합니다.",
+                ""
+            ]
+        },
+        {
+            "num": 216,
+            "title" : "margin-trim",
+            "desc" : "컨테이너가 컨테이너의 가장자리에 인접한 자식의 여백을 트리밍할 수 있습니다.",
+            "descBasic" : "margin-trim",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "컨테이너가 컨테이너의 가장자리에 인접한 자식의 여백을 트리밍할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 217,
+            "title" : "mask",
+            "desc" : "아이템이 부분적로만 보여지게 하거나 혹은 완전히 가려서 보여지지 않게 할 수 있는 기능을 가지고 있습니다.",
+            "descBasic" : "mask",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "아이템이 부분적로만 보여지게 하거나 혹은 완전히 가려서 보여지지 않게 할 수 있는 기능을 가지고 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 218,
+            "title" : "mask-border",
+            "desc" : "요소의 경계의 가장자리를 따라 마스크를 만들 수 있습니다.",
+            "descBasic" : "mask-border",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 경계의 가장자리를 따라 마스크를 만들 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 219,
+            "title" : "mask-border-mode",
+            "desc" : "마스크 테두리에 사용되는 혼합 모드를 지정합니다.",
+            "descBasic" : "mask-border-mode",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "마스크 테두리에 사용되는 혼합 모드를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 220,
+            "title" : "mask-border-outset",
+            "desc" : "요소의 마스크 테두리가 테두리 상자에서 설정되는 거리를 지정합니다.",
+            "descBasic" : "mask-border-outset",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 마스크 테두리가 테두리 상자에서 설정되는 거리를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 221,
+            "title" : "mask-border-repeat",
+            "desc" : "소스 이미지의 가장자리 영역이 요소의 마스크 테두리 크기에 맞게 조정되는 방식을 설정합니다.",
+            "descBasic" : "mask-border-repeat",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "소스 이미지의 가장자리 영역이 요소의 마스크 테두리 크기에 맞게 조정되는 방식을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 222,
+            "title" : "mask-border-slice",
+            "desc" : "이미지 세트를 영역으로 나눕니다.",
+            "descBasic" : "mask-border-slice",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "이미지 세트를 영역으로 나눕니다.",
+                "."
+            ]
+        },
+        {
+            "num": 223,
+            "title" : "mask-border-source",
+            "desc" : "요소의 마스크 테두리를 만드는데 사용되는 소스 이미지를 설정 합니다..",
+            "descBasic" : "mask-border-source",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 마스크 테두리를 만드는데 사용되는 소스 이미지를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 224,
+            "title" : "mask-border-width",
+            "desc" : "요소의 마스크 테두리 너비를 설정 합니다.",
+            "descBasic" : "mask-border-width",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 마스크 테두리 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 225,
+            "title" : "mask-clip",
+            "desc" : "마스크의 영향을 받는 영역을 결정합니다.",
+            "descBasic" : "mask-clip",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "마스크의 영향을 받는 영역을 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 226,
+            "title" : "mask-composite",
+            "desc" : "현재 마스크 레이어 아래에 마스크 레이어가 있는 합성 작업을 나타냅니다.",
+            "descBasic" : "mask-composite",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "현재 마스크 레이어 아래에 마스크 레이어가 있는 합성 작업을 나타냅니다.",
+                "."
+            ]
+        },
+        {
+            "num": 227,
+            "title" : "mask-image",
+            "desc" : "요소의 마스크 레이어로 사용되는 이미지를 설정 합니다.",
+            "descBasic" : "mask-image",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 마스크 레이어로 사용되는 이미지를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 228,
+            "title" : "mask-mode",
+            "desc" : "정의된 마스크 참조가 광도 또는 알파 마스크로 처리되는지 여부를 설정 합니다.",
+            "descBasic" : "mask-mode",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "정의된 마스크 참조가 광도 또는 알파 마스크로 처리되는지 여부를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 229,
+            "title" : "mask-origin",
+            "desc" : "마스크의 원점을 설정합니다.",
+            "descBasic" : "mask-origin",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "마스크의 원점을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 230,
+            "title" : "mask-position",
+            "desc" : "마스크의 위치를 설정합니다.",
+            "descBasic" : "mask-position",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "마스크의 위치를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 231,
+            "title" : "mask-repeat",
+            "desc" : "마스크 이미지를 반복하는 방법을 속성 집합을 설정합니다.",
+            "descBasic" : "mask-repeat",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "마스크 이미지를 반복하는 방법을 속성 집합을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 232,
+            "title" : "mask-size",
+            "desc" : "마스크 이미지의 크기를 지정합니다.",
+            "descBasic" : "mask-size",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "마스크 이미지의 크기를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 233,
+            "title" : "mask-type",
+            "desc" : "마스크 타입을 설정합니다.",
+            "descBasic" : "mask-type",
+            "descApply" : "mask",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "마스크 타입을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 234,
+            "title" : "max-block-size",
+            "desc" : "지정된 대로 쓰기 방향과 반대 방향으로 요소의 최대 크기를 지정합니다.",
+            "descBasic" : "max-block-size",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "지정된 대로 쓰기 방향과 반대 방향으로 요소의 최대 크기를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 235,
+            "title" : "max-height",
+            "desc" : "요소의 최대 높이를 설정 합니다.",
+            "descBasic" : "max-height",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 최대 높이를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 236,
+            "title" : "max-inline-size",
+            "desc" : "쓰기 모드에 따라 요소 블록의 가로 또는 세로 최대 크기를 정의합니다.",
+            "descBasic" : "max-inline-size",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "쓰기 모드에 따라 요소 블록의 가로 또는 세로 최대 크기를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 237,
+            "title" : "max-width",
+            "desc" : "요소의 최대 너비를 설정 합니다.",
+            "descBasic" : "max-width",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 최대 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 238,
+            "title" : "min-block-size",
+            "desc" : "쓰기 모드에 따라 요소 블록의 최소 가로 또는 세로 크기를 정의합니다.",
+            "descBasic" : "min-block-size",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "쓰기 모드에 따라 요소 블록의 최소 가로 또는 세로 크기를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 239,
+            "title" : "min-height",
+            "desc" : "요소의 최소 높이를 합니다.",
+            "descBasic" : "min-height",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 최소 높이를 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 240,
+            "title" : "min-inline-size",
+            "desc" : "쓰기 모드에 따라 요소 블록의 가로 또는 세로 최소 크기를 정의합니다.",
+            "descBasic" : "min-inline-size",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "쓰기 모드에 따라 요소 블록의 가로 또는 세로 최소 크기를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 241,
+            "title" : "min-width",
+            "desc" : "요소의 최소 넓이를 지정한다.",
+            "descBasic" : "min-width",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 최소 넓이를 지정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 242,
+            "title" : "mix-blend-mode",
+            "desc" : " 배경을 혼합 합니다.",
+            "descBasic" : "mix-blend-mode",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                " 배경을 혼합 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 243,
+            "title" : "object-fit",
+            "desc" : "img 나 video 요소와 같은 대체 요소의 콘텐츠 크기를 어떤 방식로 조절해 요소에 맞출 것인지 지정합니다.",
+            "descBasic" : "object-fit",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "img 나 video 요소와 같은 대체 요소의 콘텐츠 크기를 어떤 방식로 조절해 요소에 맞출 것인지 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 244,
+            "title" : "object-position",
+            "desc" : "오브젝트 위치를 설정 합니다.",
+            "descBasic" : "object-position",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "오브젝트 위치를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 245,
+            "title" : "offset",
+            "desc" : "정의된 경로에 따라 요소에 애니메이션을 적용하는데 필요한 모든 속성을 설정 합니다.",
+            "descBasic" : "offset",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "정의된 경로에 따라 요소에 애니메이션을 적용하는데 필요한 모든 속성을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 246,
+            "title" : "offset-anchor",
+            "desc" : "실제로 경로를 따라 움직이는 요소를 따라 이동하는 요소의 상자 내부 지점을 지정합니다.",
+            "descBasic" : "offset-anchor",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "실제로 경로를 따라 움직이는 요소를 따라 이동하는 요소의 상자 내부 지점을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 247,
+            "title" : "offset-distance",
+            "desc" : "요소가 배치될 위치를 지정합니다.",
+            "descBasic" : "offset-distance",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소가 배치될 위치를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 248,
+            "title" : "offset-path",
+            "desc" : "요소가 따라갈 모션 경로를 지정하고 상위 컨테이너 또는 SVG 좌표 시스템 내에서의 요소의 위치를 정의합니다.",
+            "descBasic" : "offset-path",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소가 따라갈 모션 경로를 지정하고 상위 컨테이너 또는 SVG 좌표 시스템 내에서의 요소의 위치를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 249,
+            "title" : "offset-position",
+            "desc" : "요소가 따라 배치될 때 요소의 위치를 정의합니다.",
+            "descBasic" : "offset-position",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소가 따라 배치될 때 요소의 위치를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 250,
+            "title" : "offset-rotate",
+            "desc" : "요소가 따라 배치될 때 요소의 방향을 정의합니다.",
+            "descBasic" : "offset-rotate",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소가 따라 배치될 때 요소의 방향을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 251,
+            "title" : "opacity",
+            "desc" : "요소의 투명도를 설정 합니다.",
+            "descBasic" : "opacity",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 투명도를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 252,
+            "title" : "order",
+            "desc" : "플렉스 또는 그리드 컨테이너에서 항목을 배치하는 순서를 설정합니다.",
+            "descBasic" : "order",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "플렉스 또는 그리드 컨테이너에서 항목을 배치하는 순서를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 253,
+            "title" : "orphans",
+            "desc" : "페이지, 영역 또는 열의 맨 아래에 표시되어야 하는 블록 컨테이너 최소 줄 수를 설정 합니다.",
+            "descBasic" : "orphans",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "페이지, 영역 또는 열의 맨 아래에 표시되어야 하는 블록 컨테이너 최소 줄 수를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 254,
+            "title" : "outline",
+            "desc" : "요소의 윤곽선을 설정 합니다.",
+            "descBasic" : "outline",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 윤곽선을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 255,
+            "title" : "outline-color",
+            "desc" : "요소의 외곽선의 색상을 설정합니다.",
+            "descBasic" : "outline-color",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 외곽선의 색상을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 256,
+            "title" : "outline-offset",
+            "desc" : "윤곽선과 요소의 가장자리 또는 테두리 사이의 간격을 설정 합니다.",
+            "descBasic" : "outline-offset",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "윤곽선과 요소의 가장자리 또는 테두리 사이의 간격을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 257,
+            "title" : "outline-style",
+            "desc" : "요소의 윤곽의 스타일을 설정합니다.",
+            "descBasic" : "outline-style",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 윤곽의 스타일을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 258,
+            "title" : "outline-width",
+            "desc" : "요소의 윤곽의 두께를 설정합니다.",
+            "descBasic" : "outline-width",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 윤곽의 두께를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 259,
+            "title" : "overflow",
+            "desc" : "내용이 박스보다 큰 경우 넘친 부분에 대해 설정 합니다.",
+            "descBasic" : "overflow",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "내용이 박스보다 큰 경우 넘친 부분에 대해 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 260,
+            "title" : "overflow-anchor",
+            "desc" : "콘텐츠 이동을 최소화하기 위해 스크롤 위치를 조정하는 브라우저의 스크롤 고정 동작을 옵트아웃하는 방법을 제공합니다.",
+            "descBasic" : "overflow-anchor",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "콘텐츠 이동을 최소화하기 위해 스크롤 위치를 조정하는 브라우저의 스크롤 고정 동작을 옵트아웃하는 방법을 제공합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 261,
+            "title" : "overflow-block",
+            "desc" : "콘텐츠가 상자의 블록 시작 및 블록 끝 가장자리를 오버플로할 때 표시되는 내용을 설정합니다.",
+            "descBasic" : "overflow-block",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "콘텐츠가 상자의 블록 시작 및 블록 끝 가장자리를 오버플로할 때 표시되는 내용을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 262,
+            "title" : "overflow-clip-margin",
+            "desc" : "클리핑되기 전에 요소가 경계를 벗어나 얼마나 멀리 칠할 수 있는지를 결정합니다.",
+            "descBasic" : "overflow-clip-margin",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "클리핑되기 전에 요소가 경계를 벗어나 얼마나 멀리 칠할 수 있는지를 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 263,
+            "title" : "overflow-inline",
+            "desc" : "콘텐츠가 상자의 인라인 시작 및 끝 가장자리를 오버플로할 때 표시되는 내용을 설정합니다.",
+            "descBasic" : "overflow-inline",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "콘텐츠가 상자의 인라인 시작 및 끝 가장자리를 오버플로할 때 표시되는 내용을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 264,
+            "title" : "overflow-wrap",
+            "desc" : "줄바꿈 위해 단어 쪼개기",
+            "descBasic" : "overflow-wrap",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "줄바꿈 위해 단어 쪼개기",
+                "."
+            ]
+        },
+        {
+            "num": 265,
+            "title" : "overflow-x",
+            "desc" : "콘텐츠가 블록 수준 요소의 왼쪽 및 오른쪽 가장자리를 오버플로할 때 표시되는 내용을 설정합니다.",
+            "descBasic" : "overflow-x",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "콘텐츠가 블록 수준 요소의 왼쪽 및 오른쪽 가장자리를 오버플로할 때 표시되는 내용을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 266,
+            "title" : "overflow-y",
+            "desc" : "콘텐츠가 블록 수준 요소의 위쪽 및 아래쪽 가장자리를 오버플로할 때 표시되는 내용을 설정합니다.",
+            "descBasic" : "overflow-y",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★★☆",
+            "definition": [
+                "콘텐츠가 블록 수준 요소의 위쪽 및 아래쪽 가장자리를 오버플로할 때 표시되는 내용을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 267,
+            "title" : "overscroll-behavior",
+            "desc" : "스크롤 영역의 경계에 도달 할 때 브라우저가 무엇 CSS 속성을 설정합니다.",
+            "descBasic" : "overscroll-behavior",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 영역의 경계에 도달 할 때 브라우저가 무엇 CSS 속성을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 268,
+            "title" : "overscroll-behavior-block",
+            "desc" : "스크롤 영역의 블록 방향 경계에 도달하면 CSS 속성은 브라우저의 동작을 설정합니다.",
+            "descBasic" : "overscroll-behavior-block",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 영역의 블록 방향 경계에 도달하면 CSS 속성은 브라우저의 동작을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 269,
+            "title" : "overscroll-behavior-inline",
+            "desc" : "스크롤 영역의 인라인 방향의 경계에 도달하면 CSS 속성은 브라우저의 동작을 설정합니다.",
+            "descBasic" : "overscroll-behavior-inline",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 영역의 인라인 방향의 경계에 도달하면 CSS 속성은 브라우저의 동작을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 270,
+            "title" : "overscroll-behavior-x",
+            "desc" : "스크롤 영역의 수평 경계에 도달할 때 브라우저의 동작을 설정합니다.",
+            "descBasic" : "overscroll-behavior-x",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 영역의 수평 경계에 도달할 때 브라우저의 동작을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 271,
+            "title" : "overscroll-behavior-y",
+            "desc" : "스크롤 영역의 수직 경계에 도달할 때 브라우저의 동작을 설정합니다.",
+            "descBasic" : "overscroll-behavior-y",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 영역의 수직 경계에 도달할 때 브라우저의 동작을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 272,
+            "title" : "padding",
+            "desc" : "속성의 네 방향 여백을 설정 합니다.",
+            "descBasic" : "padding",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "속성의 네 방향 여백을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 273,
+            "title" : "padding-block-end",
+            "desc" : "요소의 쓰기모드, 방향 및 텍스트 방향에 따라 물리적 패딩에 매핑되는 요소의 논리적 블록 끝 패딩을 정의합니다.",
+            "descBasic" : "padding-block-end",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기모드, 방향 및 텍스트 방향에 따라 물리적 패딩에 매핑되는 요소의 논리적 블록 끝 패딩을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 274,
+            "title" : "padding-block-start",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 패딩에 매핑하는 요소의 논리 블록 시작 패딩을 정의합니다.",
+            "descBasic" : "padding-block-start",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 패딩에 매핑하는 요소의 논리 블록 시작 패딩을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 275,
+            "title" : "padding-bottom",
+            "desc" : "요소 내부의 아래쪽 여백을 설정합니다.",
+            "descBasic" : "padding-bottom",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소 내부의 아래쪽 여백을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 276,
+            "title" : "padding-inline-end",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 패딩에 매핑하는 요소의 논리적 인라인 최종 패딩을 정의합니다.",
+            "descBasic" : "padding-inline-end",
+            "descApply" : "",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 패딩에 매핑하는 요소의 논리적 인라인 최종 패딩을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 277,
+            "title" : "padding-inline-start",
+            "desc" : "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 패딩에 매핑하는 요소의 논리적 인라인 시작 패딩을 정의합니다.",
+            "descBasic" : "padding-inline-start",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 패딩에 매핑하는 요소의 논리적 인라인 시작 패딩을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 278,
+            "title" : "padding-left",
+            "desc" : "요소의 왼쪽 여백을 지정한다.",
+            "descBasic" : "padding-left",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 왼쪽 여백을 지정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 279,
+            "title" : "padding-right",
+            "desc" : "요소의 오른쪽 여백을 지정한다.",
+            "descBasic" : "padding-right",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 오른쪽 여백을 지정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 280,
+            "title" : "padding-top",
+            "desc" : "요소의 위쪽 패딩을 결정합니다.",
+            "descBasic" : "padding-top",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 위쪽 패딩을 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 281,
+            "title" : "page-break-after",
+            "desc" : "페이지 인쇄시 분리에 관한 설정을 정의합니다.",
+            "descBasic" : "page-break-after",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "페이지 인쇄시 분리에 관한 설정을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 282,
+            "title" : "page-break-before",
+            "desc" : "프린터로 출력할 때 다음 페이지로 페이지를 넘기는 것을 지정하는 Property입니다.",
+            "descBasic" : "page-break-before",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "프린터로 출력할 때 다음 페이지로 페이지를 넘기는 것을 지정하는 Property입니다.",
+                "."
+            ]
+        },
+        {
+            "num": 283,
+            "title" : "page-break-inside",
+            "desc" : "인쇄시 페이지 분리에 관한 설정을 정의합니다..",
+            "descBasic" : "page-break-inside",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "인쇄시 페이지 분리에 관한 설정을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 284,
+            "title" : "perspective",
+            "desc" : "3D 위치 요소에 약간의 원근감을 주기 위해 z=0 평면과 사용자 사이의 거리를 결정합니다.",
+            "descBasic" : "perspective",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "3D 위치 요소에 약간의 원근감을 주기 위해 z=0 평면과 사용자 사이의 거리를 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 285,
+            "title" : "perspective-origin",
+            "desc" : "뷰어가 보고 있는 위치를 결정합니다.",
+            "descBasic" : "perspective-origin",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "뷰어가 보고 있는 위치를 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 286,
+            "title" : "place-content",
+            "desc" : "그리드나 플렉스 레이아웃에서 블록 및 인라인 방향을 따라 콘텐츠를 한 번에 정렬할 수 있습니다.",
+            "descBasic" : "place-content",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드나 플렉스 레이아웃에서 블록 및 인라인 방향을 따라 콘텐츠를 한 번에 정렬할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 287,
+            "title" : "place-items",
+            "desc" : "그리드나 플렉스 레이아웃에서 블록 및 인라인 방향을 따라 항목을 한 번에 정렬할 수 있습니다.",
+            "descBasic" : "place-items",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드나 플렉스 레이아웃에서 블록 및 인라인 방향을 따라 항목을 한 번에 정렬할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 288,
+            "title" : "place-self",
+            "desc" : "그리드나 플렉스 레이아웃에서 블록 및 인라인 방향으로 개별 항목을 한 번에 정리할 수 있습니다.",
+            "descBasic" : "place-self",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그리드나 플렉스 레이아웃에서 블록 및 인라인 방향으로 개별 항목을 한 번에 정리할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 289,
+            "title" : "pointer-events",
+            "desc" : "HTML 요소들의 마우스/터치 이벤트들(CSS hover/active, JS click/tap, 커서 드래그등)의 응답을 조정할 수 있는 속성이다.",
+            "descBasic" : "pointer-events",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "HTML 요소들의 마우스/터치 이벤트들(CSS hover/active, JS click/tap, 커서 드래그등)의 응답을 조정할 수 있는 속성이다.",
+                "."
+            ]
+        },
+        {
+            "num": 290,
+            "title" : "position",
+            "desc" : "속성이 배치될 최종 위치를 결정합니다.",
+            "descBasic" : "position",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "속성이 배치될 최종 위치를 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 291,
+            "title" : "print-color-adjust",
+            "desc" : "출력 장치에서 요소의 모양을 최적화하기 위해 사용자 에이전트가 수행할 수 있는 작업을 설정합니다.",
+            "descBasic" : "print-color-adjust",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "출력 장치에서 요소의 모양을 최적화하기 위해 사용자 에이전트가 수행할 수 있는 작업을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 292,
+            "title" : "quotes",
+            "desc" : "속성 또는 값을 사용하여 추가된 따옴표를 브라우저에서 렌더링하는 방법을 설정 합니다.",
+            "descBasic" : "quotes",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "속성 또는 값을 사용하여 추가된 따옴표를 브라우저에서 렌더링하는 방법을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 293,
+            "title" : "resize",
+            "desc" : "요소의 크기를 조정할 수 있는지 여부와 가능한 경우 방향을 설정 합니다.",
+            "descBasic" : "resize",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 크기를 조정할 수 있는지 여부와 가능한 경우 방향을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 294,
+            "title" : "right",
+            "desc" : "배치된 요소의 수평 위치 지정에 참여합니다.",
+            "descBasic" : "right",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "배치된 요소의 수평 위치 지정에 참여합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 295,
+            "title" : "rotate",
+            "desc" : "속성과 별도로 회전 변환을 지정할 수 있습니다.",
+            "descBasic" : "rotate",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "속성과 별도로 회전 변환을 지정할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 296,
+            "title" : "row-gap (grid-row-gap)",
+            "desc" : "요소 행 사이의 간격을 설정 합니다.",
+            "descBasic" : "row-gap (grid-row-gap)",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소 행 사이의 간격을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 297,
+            "title" : "ruby-align",
+            "desc" : "베이스에 대한 다양한 루비 요소의 분포를 정의합니다.",
+            "descBasic" : "ruby-align",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "베이스에 대한 다양한 루비 요소의 분포를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 298,
+            "title" : "ruby-position",
+            "desc" : "기본 요소를 기준으로 루비 요소의 위치를 정의합니다.",
+            "descBasic" : "ruby-position",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "기본 요소를 기준으로 루비 요소의 위치를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 299,
+            "title" : "scale",
+            "desc" : " 속성과 별개로 스케일 변환을 개별적으로 지정할 수 있습니다.",
+            "descBasic" : "scale",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                " 속성과 별개로 스케일 변환을 개별적으로 지정할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 300,
+            "title" : "scroll-behavior",
+            "desc" : "스크롤이 탐색 또는 CSSOM 스크롤 API에 의해 트리거될 때 스크롤 상자의 동작을 설정합니다.",
+            "descBasic" : "scroll-behavior",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤이 탐색 또는 CSSOM 스크롤 API에 의해 트리거될 때 스크롤 상자의 동작을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 301,
+            "title" : "scroll-margin",
+            "desc" : "요소의 모든 스크롤 여백을 한 번에 설정하여 속성이 요소의 여백에 대해 수행하는 것과 유사한 값을 할당합니다.",
+            "descBasic" : "scroll-margin",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 모든 스크롤 여백을 한 번에 설정하여 속성이 요소의 여백에 대해 수행하는 것과 유사한 값을 할당합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 302,
+            "title" : "scroll-margin-block",
+            "desc" : "블록 차원의 요소의 스크롤 마진을 설정한다.",
+            "descBasic" : "scroll-margin-block",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "블록 차원의 요소의 스크롤 마진을 설정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 303,
+            "title" : "scroll-margin-block-end",
+            "desc" : "상자를 스냅포트에 맞추는 데 사용되는 블록 차원의 끝에서 스크롤 스냅 영역의 여백을 정의합니다 .",
+            "descBasic" : "scroll-margin-block-end",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "상자를 스냅포트에 맞추는 데 사용되는 블록 차원의 끝에서 스크롤 스냅 영역의 여백을 정의합니다 .",
+                "."
+            ]
+        },
+        {
+            "num": 304,
+            "title" : "scroll-margin-block-start",
+            "desc" : "상자를 스냅포트에 맞추는 데 사용되는 블록 차원의 시작 부분에서 스크롤 스냅 영역의 여백을 정의합니다.",
+            "descBasic" : "scroll-margin-block-start",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "상자를 스냅포트에 맞추는 데 사용되는 블록 차원의 시작 부분에서 스크롤 스냅 영역의 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 305,
+            "title" : "scroll-margin-bottom",
+            "desc" : "상자를 snapport에 맞추는 데 사용되는 스크롤 스냅 영역의 아래쪽 여백을 정의합니다.",
+            "descBasic" : "scroll-margin-bottom",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "상자를 snapport에 맞추는 데 사용되는 스크롤 스냅 영역의 아래쪽 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 306,
+            "title" : "scroll-margin-inline",
+            "desc" : "인라인 차원의 요소의 스크롤 마진을 설정한다.",
+            "descBasic" : "scroll-margin-inline",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "인라인 차원의 요소의 스크롤 마진을 설정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 307,
+            "title" : "scroll-margin-inline-end",
+            "desc" : "이 상자를 snapport에 맞추는 데 사용되는 인라인 차원의 끝에서 스크롤 스냅 영역의 여백을 정의합니다.",
+            "descBasic" : "scroll-margin-inline-end",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "이 상자를 snapport에 맞추는 데 사용되는 인라인 차원의 끝에서 스크롤 스냅 영역의 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 308,
+            "title" : "scroll-margin-inline-start",
+            "desc" : "이 상자를 snapport에 맞추는 데 사용되는 인라인 차원의 시작 부분에서 스크롤 스냅 영역의 여백을 정의합니다.",
+            "descBasic" : "scroll-margin-inline-start",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "이 상자를 snapport에 맞추는 데 사용되는 인라인 차원의 시작 부분에서 스크롤 스냅 영역의 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 309,
+            "title" : "scroll-margin-left",
+            "desc" : "요소의 왼쪽 마진을 지정한다.",
+            "descBasic" : "scroll-margin-left",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 왼쪽 마진을 지정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 310,
+            "title" : "scroll-margin-right",
+            "desc" : "상자를 snapport에 맞추는 데 사용되는 스크롤 스냅 영역의 오른쪽 여백을 정의합니다.",
+            "descBasic" : "scroll-margin-right",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "상자를 snapport에 맞추는 데 사용되는 스크롤 스냅 영역의 오른쪽 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 311,
+            "title" : "scroll-margin-top",
+            "desc" : "상자를 snapport에 맞추는 데 사용되는 스크롤 스냅 영역의 위쪽 여백을 정의합니다.",
+            "descBasic" : "scroll-margin-top",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "상자를 snapport에 맞추는 데 사용되는 스크롤 스냅 영역의 위쪽 여백을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 312,
+            "title" : "scroll-padding",
+            "desc" : "요소의 모든 면에 스크롤 패딩을 한 번에 설정 합니다.",
+            "descBasic" : "scroll-padding",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 모든 면에 스크롤 패딩을 한 번에 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 313,
+            "title" : "scroll-padding-block",
+            "desc" : "블록 차원의 요소의 스크롤 패딩을 설정한다.",
+            "descBasic" : "scroll-padding-block",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "블록 차원의 요소의 스크롤 패딩을 설정한다.",
+                "."
+            ]
+        },
+        {
+            "num": 314,
+            "title" : "scroll-padding-block-end",
+            "desc" : "스크롤포트의 최적보기 영역의 블록 차원에서 끝 가장자리에 대한 오프셋을 정의합니다.",
+            "descBasic" : "scroll-padding-block-end",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤포트의 최적보기 영역의 블록 차원에서 끝 가장자리에 대한 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 315,
+            "title" : "scroll-padding-block-start",
+            "desc" : "스크롤 포트의 최적보기 영역의 블록 차원에서 시작 가장자리에 대한 오프셋을 정의합니다.",
+            "descBasic" : "scroll-padding-block-start",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 포트의 최적보기 영역의 블록 차원에서 시작 가장자리에 대한 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 316,
+            "title" : "scroll-padding-bottom",
+            "desc" : "스크롤포트의 최적 보기영역 하단에 대한 오프셋을 정의합니다.",
+            "descBasic" : "scroll-padding-bottom",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤포트의 최적 보기영역 하단에 대한 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 317,
+            "title" : "scroll-padding-inline",
+            "desc" : "인라인 차원에서 요소의 스크롤 패딩을 설정 합니다.",
+            "descBasic" : "scroll-padding-inline",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "인라인 차원에서 요소의 스크롤 패딩을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 318,
+            "title" : "scroll-padding-inline-end",
+            "desc" : "스크롤 포트의 최적보기 영역의 인라인 차원에서 끝 가장자리에 대한 오프셋을 정의합니다.",
+            "descBasic" : "scroll-padding-inline-end",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 포트의 최적보기 영역의 인라인 차원에서 끝 가장자리에 대한 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 319,
+            "title" : "scroll-padding-inline-start",
+            "desc" : "스크롤 포트의 최적보기 영역의 인라인 차원에서 시작 가장자리에 대한 오프셋을 정의합니다.",
+            "descBasic" : "scroll-padding-inline-start",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 포트의 최적보기 영역의 인라인 차원에서 시작 가장자리에 대한 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 320,
+            "title" : "scroll-padding-left",
+            "desc" : "스크롤 포트의 최적 보기영역 왼쪽에 대한 오프셋을 정의합니다.",
+            "descBasic" : "scroll-padding-left",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 포트의 최적 보기영역 왼쪽에 대한 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 321,
+            "title" : "scroll-padding-right",
+            "desc" : "스크롤 포트의 최적 보기영역 오른쪽에 대한 오프셋을 정의합니다.",
+            "descBasic" : "scroll-padding-right",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 포트의 최적 보기영역 오른쪽에 대한 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 322,
+            "title" : "scroll-padding-top",
+            "desc" : "스크롤 포트의 최적 보기영역 상단에 대한 오프셋을 정의합니다.",
+            "descBasic" : "scroll-padding-top",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 포트의 최적 보기영역 상단에 대한 오프셋을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 323,
+            "title" : "scroll-snap-align",
+            "desc" : "상자의 스냅 위치를 해당 스냅 컨테이너의 스냅포트 내에서 해당 스냅영역의 정렬로 지정합니다.",
+            "descBasic" : "scroll-snap-align",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "상자의 스냅 위치를 해당 스냅 컨테이너의 스냅포트 내에서 해당 스냅영역의 정렬로 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 324,
+            "title" : "scroll-snap-coordinate",
+            "desc" : "x",
+            "descBasic" : "scroll-snap-coordinate",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "x",
+                "."
+            ]
+        },
+        {
+            "num": 325,
+            "title" : "scroll-snap-destination",
+            "desc" : "x",
+            "descBasic" : "scroll-snap-destination",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "x",
+                "."
+            ]
+        },
+        {
+            "num": 326,
+            "title" : "scroll-snap-points-x",
+            "desc" : "x",
+            "descBasic" : "scroll-snap-points-x",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "x",
+                "."
+            ]
+        },
+        {
+            "num": 327,
+            "title" : "scroll-snap-points-y",
+            "desc" : "x",
+            "descBasic" : "scroll-snap-points-y",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "x",
+                "."
+            ]
+        },
+        {
+            "num": 328,
+            "title" : "scroll-snap-stop",
+            "desc" : "스크롤 컨테이너가 건너가능한 스냅 위치에 허용되는지 여부 속성을 정의합니다.",
+            "descBasic" : "scroll-snap-stop",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤 컨테이너가 건너가능한 스냅 위치에 허용되는지 여부 속성을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 329,
+            "title" : "scroll-snap-type",
+            "desc" : "스냅 포인트가 있는 경우 스크롤 컨테이너에 스냅 포인트가 얼마나 엄격하게 적용되는지 설정합니다.",
+            "descBasic" : "scroll-snap-type",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스냅 포인트가 있는 경우 스크롤 컨테이너에 스냅 포인트가 얼마나 엄격하게 적용되는지 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 330,
+            "title" : "scrollbar-color",
+            "desc" : "스크롤바 트랙과 썸의 색상을 설정 합니다.",
+            "descBasic" : "scrollbar-color",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "스크롤바 트랙과 썸의 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 331,
+            "title" : "scrollbar-width",
+            "desc" : "작성자가 표시될 때 요소의 스크롤 막대의 최대 두께를 설정합니다.",
+            "descBasic" : "scrollbar-width",
+            "descApply" : "scroll",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "작성자가 표시될 때 요소의 스크롤 막대의 최대 두께를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 332,
+            "title" : "shape-image-threshold",
+            "desc" : "이미지를 값으로 사용하여 모양을 추출하는 데 사용되는 알파 채널 임계값을 설정합니다.",
+            "descBasic" : "shape-image-threshold",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "이미지를 값으로 사용하여 모양을 추출하는 데 사용되는 알파 채널 임계값을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 333,
+            "title" : "shape-margin",
+            "desc" : "CSS 모양의 여백을 설정 합니다.",
+            "descBasic" : "shape-margin",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "CSS 모양의 여백을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 334,
+            "title" : "shape-outside",
+            "desc" : "인접한 인라인 콘텐츠가 둘러싸야 하는 사각형이 아닐 수 있는 모양을 정의합니다.",
+            "descBasic" : "shape-outside",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "인접한 인라인 콘텐츠가 둘러싸야 하는 사각형이 아닐 수 있는 모양을 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 335,
+            "title" : "tab-size",
+            "desc" : "탭 문자(+ 0009 U)의 폭을 지정하는 데 사용합니다.",
+            "descBasic" : "tab-size",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "탭 문자(+ 0009 U)의 폭을 지정하는 데 사용합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 336,
+            "title" : "table-layout",
+            "desc" : "셀,행 및 열 배치하는데 사용되는 알고리즘을 설정 합니다..",
+            "descBasic" : "table-layout",
+            "descApply" : "table",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "셀,행 및 열 배치하는데 사용되는 알고리즘을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 337,
+            "title" : "text-align",
+            "desc" : "블럭 안 요소의 정렬을 설정 합니다.",
+            "descBasic" : "text-align",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "블럭 안 요소의 정렬을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 338,
+            "title" : "text-align-last",
+            "desc" : "강제 줄 바꿈 직전의 블록이나 줄의 마지막 줄을 정렬하는 방법을 설정합니다.",
+            "descBasic" : "text-align-last",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "강제 줄 바꿈 직전의 블록이나 줄의 마지막 줄을 정렬하는 방법을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 339,
+            "title" : "text-combine-upright",
+            "desc" : "문자 조합을 단일 문자 공간으로 설정합니다.",
+            "descBasic" : "text-combine-upright",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "문자 조합을 단일 문자 공간으로 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 340,
+            "title" : "text-decoration",
+            "desc" : "텍스트에 꾸밈 요소를 설정 합니다.",
+            "descBasic" : "text-decoration",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트에 꾸밈 요소를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 341,
+            "title" : "text-decoration-color",
+            "desc" : "텍스트에 추가되는 장식의 색상을 설정 합니다.",
+            "descBasic" : "text-decoration-color",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트에 추가되는 장식의 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 342,
+            "title" : "text-decoration-line",
+            "desc" : "밑줄이나 윗줄과 같이 요소의 텍스트에 사용되는 장식의 종류를 설정 합니다.",
+            "descBasic" : "text-decoration-line",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "밑줄이나 윗줄과 같이 요소의 텍스트에 사용되는 장식의 종류를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 343,
+            "title" : "text-decoration-skip",
+            "desc" : "요소에 영향을 미치는 텍스트 장식이 건너뛰어야 하는 요소 콘텐츠의 부분을 설정합니다.",
+            "descBasic" : "text-decoration-skip",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소에 영향을 미치는 텍스트 장식이 건너뛰어야 하는 요소 콘텐츠의 부분을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 344,
+            "title" : "text-decoration-skip-ink",
+            "desc" : "윗줄과 밑줄이 글리프 어센더 및 디센더를 전달할 때 그려지는 방법을 지정합니다.",
+            "descBasic" : "text-decoration-skip-ink",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "윗줄과 밑줄이 글리프 어센더 및 디센더를 전달할 때 그려지는 방법을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 345,
+            "title" : "text-decoration-style",
+            "desc" : "지정된 선의 스타일을 설정 합니다.",
+            "descBasic" : "text-decoration-style",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "지정된 선의 스타일을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 346,
+            "title" : "text-emphasis : unset",
+            "desc" : "텍스트에 강조 표시를 적용합니다.",
+            "descBasic" : "text-emphasis",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트에 강조 표시를 적용합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 347,
+            "title" : "text-emphasis-color",
+            "desc" : "강조 표시의 색상을 설정 합니다.",
+            "descBasic" : "text-emphasis-color",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "강조 표시의 색상을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 348,
+            "title" : "text-emphasis-position",
+            "desc" : "루비 텍스트와 마찬가지로 강조 표시를 위한 공간이 충분하지 않으면 줄 높이가 높아집니다.",
+            "descBasic" : "text-emphasis-position",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "루비 텍스트와 마찬가지로 강조 표시를 위한 공간이 충분하지 않으면 줄 높이가 높아집니다.",
+                "."
+            ]
+        },
+        {
+            "num": 349,
+            "title" : "text-emphasis-style",
+            "desc" : "강조 표시의 모양을 설정합니다.",
+            "descBasic" : "text-emphasis-style : unset()",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "강조 표시의 모양을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 350,
+            "title" : "text-indent",
+            "desc" : "블록의 텍스트 줄 앞에 배치되는 빈 공간의 길이를 설정 합니다.",
+            "descBasic" : "text-indent",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "블록의 텍스트 줄 앞에 배치되는 빈 공간의 길이를 설정 합니다.",
+                ""
+            ]
+        },
+        {
+            "num": 351,
+            "title" : "text-justify",
+            "desc" : "텍스트에 적용해야 하는 맞춤 유형을 설정 합니다.",
+            "descBasic" : "text-justify",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트에 적용해야 하는 맞춤 유형을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 352,
+            "title" : "text-orientation",
+            "desc" : "줄에서 텍스트 문자의 방향을 설정 합니다.",
+            "descBasic" : "text-orientation",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "줄에서 텍스트 문자의 방향을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 353,
+            "title" : "text-overflow",
+            "desc" : "숨겨진 오버플로 콘텐츠가 사용자에게 신호되는 방식을 설정합니다.",
+            "descBasic" : "text-overflow",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "숨겨진 오버플로 콘텐츠가 사용자에게 신호되는 방식을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 354,
+            "title" : "text-rendering",
+            "desc" : "텍스트를 렌더링할 때 최적화할 대상에 대한 정보를 렌더링 엔진에게 제공합니다.",
+            "descBasic" : "text-rendering",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트를 렌더링할 때 최적화할 대상에 대한 정보를 렌더링 엔진에게 제공합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 355,
+            "title" : "text-shadow",
+            "desc" : "그림자를 추가합니다.",
+            "descBasic" : "text-shadow",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "그림자를 추가합니다.",
+                ""
+            ]
+        },
+        {
+            "num": 356,
+            "title" : "text-size-adjust",
+            "desc" : "일부 스마트폰 및 태블릿에서 사용되는 텍스트 인플레이션 알고리즘을 제어합니다.",
+            "descBasic" : "text-size-adjust",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "일부 스마트폰 및 태블릿에서 사용되는 텍스트 인플레이션 알고리즘을 제어합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 357,
+            "title" : "text-transform",
+            "desc" : "요소의 텍스트를 대문자로 표시하는 방법을 지정합니다.",
+            "descBasic" : "text-transform",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 텍스트를 대문자로 표시하는 방법을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 358,
+            "title" : "text-underline-position",
+            "desc" : "속성 값을 사용하여 설정되는 밑줄의 위치를 지정합니다.",
+            "descBasic" : "text-underline-position",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "속성 값을 사용하여 설정되는 밑줄의 위치를 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 359,
+            "title" : "top",
+            "desc" : "태그 위치를 상단 기준으로 어느 높이에 위치시킬건지 설정합니다.",
+            "descBasic" : "top",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "태그 위치를 상단 기준으로 어느 높이에 위치시킬건지 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 360,
+            "title" : "touch-action",
+            "desc" : "터치스크린 사용자가 요소의 영역을 조작하는 방법을 설정합니다.",
+            "descBasic" : "touch-action",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "터치스크린 사용자가 요소의 영역을 조작하는 방법을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 361,
+            "title" : "transform",
+            "desc" : "요소에 회전, 크기조절, 기울이기, 이동 효과를 부여할 수 있습니다.",
+            "descBasic" : "transform",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소에 회전, 크기조절, 기울이기, 이동 효과를 부여할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 362,
+            "title" : "transform-box",
+            "desc" : "속성이 관련된 레이아웃 상자를 정의합니다.",
+            "descBasic" : "transform-box",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "속성이 관련된 레이아웃 상자를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 363,
+            "title" : "transform-origin",
+            "desc" : "요소 변형의 원점을 설정합니다.",
+            "descBasic" : "transform-origin",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소 변형의 원점을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 364,
+            "title" : "transform-style",
+            "desc" : "요소의 자식이 3D 공간에 배치되는지 또는 요소 평면에서 병합 되는지 여부를 설정합니다.",
+            "descBasic" : "transform-style",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 자식이 3D 공간에 배치되는지 또는 요소 평면에서 병합 되는지 여부를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 365,
+            "title" : "transition",
+            "desc" : "애니메이션 효과의 속도를 조절하는 방법을 제공합니다.",
+            "descBasic" : "transition",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "애니메이션 효과의 속도를 조절하는 방법을 제공합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 366,
+            "title" : "transition-delay",
+            "desc" : "전환(transition) 효과가 나타나기 전까지의 지연 시간을 설정합니다.",
+            "descBasic" : "transition-delay",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "전환(transition) 효과가 나타나기 전까지의 지연 시간을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 367,
+            "title" : "transition-duration",
+            "desc" : "전환 애니메이션 완료하는 데 소요되는 시간을 설정합니다.",
+            "descBasic" : "transition-duration",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "전환 애니메이션 완료하는 데 소요되는 시간을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 368,
+            "title" : "transition-property",
+            "desc" : "전환 효과를 적용할 CSS 속성을 설정 합니다.",
+            "descBasic" : "transition-property",
+            "descApply" : "animation",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "전환 효과를 적용할 CSS 속성을 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 369,
+            "title" : "transition-timing-function",
+            "desc" : "전환 효과의 영향을 받는 CSS 속성에 대해 중간 값이 계산되는 방식을 설정합니다.",
+            "descBasic" : "transition-timing-function",
+            "descApply" : "",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "전환 효과의 영향을 받는 CSS 속성에 대해 중간 값이 계산되는 방식을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 370,
+            "title" : "translate",
+            "desc" : "속성과 별개로 개별적으로 변환을 지정할 수 있습니다.",
+            "descBasic" : "translate(-50%, -50%)",
+            "descApply" : "transform",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "속성과 별개로 개별적으로 변환을 지정할 수 있습니다.",
+                "."
+            ]
+        },
+        {
+            "num": 371,
+            "title" : "unicode-bidi",
+            "desc" : "속성과 함께 문서의 양방향 텍스트가 처리되는 방식을 결정합니다.",
+            "descBasic" : "unicode-bidi",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "속성과 함께 문서의 양방향 텍스트가 처리되는 방식을 결정합니다..",
+                "."
+            ]
+        },
+        {
+            "num": 372,
+            "title" : "user-select",
+            "desc" : "text 텍스트를 선택할 수 있습니다. element 텍스트를 선택할 수 있지만 요소 범위로 제한됩니다.",
+            "descBasic" : "user-select",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "text 텍스트를 선택할 수 있습니다. element 텍스트를 선택할 수 있지만 요소 범위로 제한됩니다.",
+                "."
+            ]
+        },
+        {
+            "num": 373,
+            "title" : "vertical-align",
+            "desc" : "inline 또는 table-cell box에서의 수직 정렬을 지정합니다.",
+            "descBasic" : "vertical-align",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "inline 또는 table-cell box에서의 수직 정렬을 지정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 374,
+            "title" : "visibility",
+            "desc" : "태그의 가시성을 결정합니다.",
+            "descBasic" : "visibility",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "태그의 가시성을 결정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 375,
+            "title" : "white-space",
+            "desc" : "요소의 공백을 어떻게 처리할 지를 정의합니다.",
+            "descBasic" : "white-space",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 공백을 어떻게 처리할 지를 정의합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 376,
+            "title" : "widows",
+            "desc" : "페이지, 영역 또는 열의 상단에 표시되어야 하는 블록 컨테이너의 최소 줄 수를 설정합니다.",
+            "descBasic" : "widows",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "페이지, 영역 또는 열의 상단에 표시되어야 하는 블록 컨테이너의 최소 줄 수를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 377,
+            "title" : "width",
+            "desc" : "요소의 너비를 설정 합니다.",
+            "descBasic" : "width",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소의 너비를 설정 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 378,
+            "title" : "will-change",
+            "desc" : "요소에 예상되는 변화의 종류에 관한 힌트를 브라우저에게 제공하게 합니다.",
+            "descBasic" : "will-change",
+            "descApply" : "etc",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소에 예상되는 변화의 종류에 관한 힌트를 브라우저에게 제공하게 합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 379,
+            "title" : "word-break",
+            "desc" : "텍스트들을 줄을 바꾸면서 표시해야 할때 텍스트를 어떤식으로 줄바꿈 해줄지 정하는 속성.",
+            "descBasic" : "word-break",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트들을 줄을 바꾸면서 표시해야 할때 텍스트를 어떤식으로 줄바꿈 해줄지 정하는 속성.",
+                "."
+            ]
+        },
+        {
+            "num": 380,
+            "title" : "word-spacing",
+            "desc" : "신약과 사이에, 태그와 사이의 거리를 설정합니다.",
+            "descBasic" : "word-spacing",
+            "descApply" : "fotn",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "신약과 사이에, 태그와 사이의 거리를 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 381,
+            "title" : "writing-mode",
+            "desc" : "텍스트 줄을 가로 또는 세로로 배치할지 여부와 블록이 진행되는 방향을 설정합니다.",
+            "descBasic" : "writing-mode",
+            "descApply" : "font",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "텍스트 줄을 가로 또는 세로로 배치할지 여부와 블록이 진행되는 방향을 설정합니다.",
+                "."
+            ]
+        },
+        {
+            "num": 382,
+            "title" : "z-index",
+            "desc" : "요소들의 수직 위치를 설정합니다.",
+            "descBasic" : "z-index",
+            "descApply" : "layout",
+            "descVer": "CSS3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "요소들의 수직 위치를 설정합니다.",
+                "."
+            ]
+        }
+    ]
+}

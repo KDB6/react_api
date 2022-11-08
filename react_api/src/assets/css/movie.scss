@@ -1,0 +1,148 @@
+.movie__inner {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      li {
+        width: 23%;
+        position: relative;
+        em {
+          display: block;
+          height: 80px;
+          margin-bottom: 30px;
+          font-family: var(--font-kor2);
+        }
+        .title {
+          padding: 5px 0;
+          display: inline-block;
+        }
+        .star {
+          background: rgba(255, 255, 255, 0.5);
+          color: #000;
+          position: absolute;
+          left: 20px;
+          top: 20px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50px;
+          text-align: center;
+          line-height: 30px;
+          font-weight: 800;
+        }
+      }
+    }
+    a {
+      color: var(--white);
+    }
+  }
+
+.movie__search {
+    margin-bottom: 100px;
+
+    .container {
+        position: relative;
+    }
+    
+    h2 {
+        color: var(--white);
+        font-size: 40px;
+        text-indent: -9999px;
+        height: 0;
+        font-family: var(--font-kor);
+    }
+    input {
+        background: #000;
+        border: 2px solid var(--white);
+        border-radius: 50px;
+        color: var(--white);
+        width: 100%;
+        padding: 14px 20px;
+        font-family: var(--font-kor);
+    }
+    button {
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 0;
+        font-family: var(--font-kor);
+        font-weight: 700;
+        cursor: pointer;
+        z-index: 1000;
+    }
+}
+
+.movie__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  align-items: flex-end;
+
+  h2 {
+    color: var(--white);
+    font-size: 2vw;
+    font-family: var(--font-main);
+  }
+
+  p {
+    color: var(--white);
+    font-size: 1vw;
+    font-family: var(--font-kor);
+    font-weight: 700;
+  }
+}
+
+.moviePopular {
+
+  overflow-x: auto;
+  width: 100%;
+
+  a {
+    color: var(--white);
+  }
+
+  ul {
+      display: flex;
+      justify-content: space-between;
+
+      li {
+          &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4),&:nth-child(5) {
+            display: block;
+          }
+
+          display: none;
+          width: 11%;
+          position: relative;
+
+          .good {
+            border-radius: 50%;
+            left: 10px;
+            width: 20px;
+            color: var(--font-color);
+            top: 10px;
+            position: absolute;
+            height: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: center;
+          }
+
+          
+          .title {
+              display: inline-block;
+              padding: 10px 0;
+          }
+
+          em {
+            display: block;
+            font-size: 1vw;
+            height: 60px;
+            margin-bottom: 20px;
+            font-family: var(--font-kor);
+        }
+      }
+  }
+}
