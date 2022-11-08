@@ -67,7 +67,7 @@
  
 // export default MovieList;
 
-import React from "react";
+// import React from "react";
 
 function MoviePopular(props) {
     return (
@@ -100,16 +100,3 @@ const MovieList = (props) => {
 };
 
 export default MovieList;
-
-// import React from 'react'
-
-// const movieList = () => {
-//   return (
-//     <div className='movie__list container'>
-//       <h2>dsads</h2>
-//       <p>sdadasdsa</p>
-//     </div>
-//   )
-// }
-
-// export default movieList

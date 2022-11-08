@@ -11,6 +11,7 @@ import Contact from "../layout/Contact";
 
 const Movie = () => {
   const [movies, setMovies] = useState([]);
+  const [popular, setpopular] = useState([]);
 
   const search = (query) => {
     fetch(
@@ -24,8 +25,8 @@ const Movie = () => {
   useEffect(() => {
     fetch(`https://api.themoviedb.org/3/movie/popular?api_key=540588f0940b5e6bdcf873b4608b86f0&language=ko-KOR&page=1&region=`)
         .then((response) => response.json())
-        .then((result) => MovieList(result.results))
-        // .then((result) => console.log(result.results))
+        .then((result) => setpopular(result.results))
+        .then((result) => console.log(result.results))
         .catch((error) => console.log(error));
   }, []);
 
@@ -43,7 +44,7 @@ const Movie = () => {
         <Header />
         <Contents>
           <Title title={["Movie", "referene API"]} />
-          <MovieList />
+          <MovieList popular={popular} />
           <MovieSearch onSearch={search} />
           <MovieCont movies={movies}/>
           <Contact />
