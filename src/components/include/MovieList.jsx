@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/scss";
-import "swiper/scss/pagination";
-import { Autoplay, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/effect-cards";
+import { EffectCards } from "swiper";
 
 function MoviePopular(props) {
     return (
@@ -17,22 +17,6 @@ function MoviePopular(props) {
     );
 }
 
-// const MovieList = (props) => {
-//     return (
-//         <section className="movieList">
-//             <div className="container">
-//                 <div className="moviePopular">
-//                     <ul>
-//                         {props.popular.map((popular, index) => (
-//                             <MoviePopular key={index} movie={popular} index={index} />
-//                         ))}
-//                     </ul>
-//                 </div>
-//             </div>
-//         </section>
-//     );
-// };
-
 const MovieList = (props) => {
     return (
         <section className="moviePopular">
@@ -41,16 +25,13 @@ const MovieList = (props) => {
                 <div className="moviePopular">
                     <ul>
                     <Swiper
-                        autoplay={{
-                            delay: 2000,
-                            disableOnInteraction: false,
-                        }}
-                            pagination={{ clickable: true }} 
-                            navigation={true} 
-                            modules={[Autoplay, Pagination]} 
-                            className="mySwiper"
+                        effect={"cards"}
+                        grabCursor={true}
+                        modules={[EffectCards]}
+                        className="mySwiper"
                         >
-                            <SwiperSlide>
+                            
+                        <SwiperSlide>
                             {props.popular.map((popular, index) =>
                                 index < 10 ? (
                                     <SwiperSlide key={index}>
@@ -58,7 +39,7 @@ const MovieList = (props) => {
                                     </SwiperSlide>
                                 ) : null
                             )}
-                            </SwiperSlide>
+                        </SwiperSlide>
                         </Swiper>
                     </ul>
                 </div>
