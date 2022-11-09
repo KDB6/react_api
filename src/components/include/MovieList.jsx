@@ -24,22 +24,19 @@ const MovieList = (props) => {
                 <h2>Ranking</h2>
                 <div className="moviePopular">
                     <ul>
-                    <Swiper
-                        effect={"cards"}
-                        grabCursor={true}
-                        modules={[EffectCards]}
-                        className="mySwiper"
-                        >
-                            
-                        <SwiperSlide>
-                            {props.popular.map((popular, index) =>
-                                index < 10 ? (
-                                    <SwiperSlide key={index}>
-                                    <MoviePopular key={index} movie={popular} index={index} />
-                                    </SwiperSlide>
-                                ) : null
-                            )}
-                        </SwiperSlide>
+                        <Swiper
+                            effect={"cards"}
+                            grabCursor={true}
+                            modules={[EffectCards]}
+                            className="mySwiper"
+                            >
+                            <SwiperSlide>
+                                {props.popular.map((popular, index) =>
+                                    index < 10 ? (
+                                        <MoviePopular key={index} movie={popular} index={index} />
+                                    ) : null
+                                )}
+                            </SwiperSlide>
                         </Swiper>
                     </ul>
                 </div>

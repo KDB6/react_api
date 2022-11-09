@@ -160,16 +160,16 @@
 
 .swiper {
   width: 240px;
-  height: 320px;
+  height: 360px;
 }
 
-.swiper-slide {
+.swiper-slide li a img {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 18px;
+  border-radius: 10px;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 400;
   color: #fff;
 }
 
