@@ -1,7 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-cards";
-import { EffectCards } from "swiper";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination } from "swiper";
 
 function MoviePopular(props) {
     return (
@@ -19,17 +20,27 @@ function MoviePopular(props) {
 
 const MovieList = (props) => {
     return (
-        <section className="moviePopular">
+        <section id="cont__movie">
             <div className="container">
-                <h2>Ranking</h2>
-                <div className="moviePopular">
-                    <ul>
+                <div className="movie__inner">
+                    <div className="movie__slider">
                         <Swiper
-                            effect={"cards"}
+                            effect={"coverflow"}
                             grabCursor={true}
-                            modules={[EffectCards]}
+                            centeredSlides={true}
+                            slidesPerView={"auto"}
+                            coverflowEffect={{
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            initialSlide: 5,
+                            slideShadows: true,
+                            }}
+                            pagination={true}
+                            modules={[EffectCoverflow, Pagination]}
                             className="mySwiper"
-                            >
+                        >
                             <SwiperSlide>
                                 {props.popular.map((popular, index) =>
                                     index < 10 ? (
@@ -38,7 +49,7 @@ const MovieList = (props) => {
                                 )}
                             </SwiperSlide>
                         </Swiper>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </section>
