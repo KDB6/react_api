@@ -15,7 +15,7 @@ const Reference = () => {
   const [references, setReference] = useState([]);
 
   useEffect(()=>{
-    fetch("https://raw.githubusercontent.com/KDB6/reactclass/main/react_api/src/utils/reference.json")
+    fetch("https://raw.githubusercontent.com/KDB6/react_api/main/src/utils/reference.json")
     .then(response => response.json())
     // .then(result => console.log(result.cssRefer))   // 데이터 불러올 때 객체만이냐 배열이냐에 따라 다르다
     .then(result => setReference(result.cssRefer))
