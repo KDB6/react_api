@@ -53,7 +53,7 @@
     }
     input {
         background: #000;
-        border: 2px solid var(--white);
+        border: 1px solid var(--white);
         border-radius: 50px;
         color: var(--white);
         width: 100%;
@@ -62,16 +62,18 @@
     }
     button {
         position: absolute;
-        right: 10px;
+        right: 15px;
         top: 7px;
         width: 40px;
         height: 40px;
         border-radius: 50%;
         border: 0;
         font-family: var(--font-kor);
-        font-weight: 700;
-        cursor: pointer;
+        font-weight: 400;
         z-index: 1000;
+        background: #000;
+        color: var(--white);
+        cursor: pointer;
     }
 }
 
@@ -96,67 +98,71 @@
   }
 }
 
-// .moviePopularSlider {
+.movie__inner {
 
-//   overflow-Y: auto;
-//   width: 50%;
-//   margin-bottom: 0px;
-//   margin: 0 auto;
 
-//   h2 {
-//     color: var(--white);
-//     font-family: var(--font-main);
-//     text-align: center;
-//     font-size: 2vw;
-//     margin-bottom: 20px;
-//   }
+  a {
+    color: var(--white);
+  }
 
-//   a {
-//     color: var(--white);
-//   }
+  ul {
+      width: 100%;
+      height: 750px;
+      display: flex;
 
-//   ul {
-//       width: 100%;
-//       height: 750px;
-//       display: flex;
+      li {
+          &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4),&:nth-child(5) {
+            display: inline;
+          }
 
-//       li {
-//           &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4),&:nth-child(5) {
-//             display: inline;
-//           }
+          // display: none;
+          // position: relative;
 
-//           display: none;
-//           position: relative;
-
-//           .good {
-//             border-radius: 50%;
-//             left: 10px;
-//             width: 20px;
-//             color: var(--font-color);
-//             top: 10px;
-//             position: absolute;
-//             height: 20px;
-//             font-weight: 500;
-//             line-height: 30px;
-//             text-align: center;
-//           }
+          .good {
+            border-radius: 50%;
+            left: 10px;
+            width: 20px;
+            color: var(--font-color);
+            top: 10px;
+            position: absolute;
+            height: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: center;
+          }
 
           
-//           .title {
-//               display: inline-block;
-//               padding: 10px 0;
-//           }
+          .title {
+              display: inline-block;
+              padding: 10px 0;
+          }
 
-//           em {
-//             display: block;
-//             font-size: 1vw;
-//             height: 60px;
-//             margin-bottom: 20px;
-//             font-family: var(--font-kor);
-//           }
-//       }
-//   }
-// }
+          em {
+            display: block;
+            font-size: 1vw;
+            height: 60px;
+            margin-bottom: 20px;
+            font-family: var(--font-kor);
+          }   
+      }
+  }
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+}
 
 #app {
   height: 100%;
@@ -167,7 +173,7 @@ html,
   height: 100%;
 }
 
-.movie__slider li {
+.movie__slider {
   background: #000;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -176,20 +182,26 @@ html,
   padding: 0;
 }
 
-.swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-
-.swiper-slide li {
+em {
   display: block;
-  width: 100%;
+  font-family: var(--font-main);
 }
+.score {
+  font-weight: 800;
+  border-bottom: 1px solid #000;
+  color: #fff;
+  right: 0px;
+  width: 30px;
+  top: -30px;
+  position: absolute;
+  height: 23px;
+  text-align: center;
+}
+.title {
+  padding: 5px 0;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-family: var(--font-kor);
+}
+

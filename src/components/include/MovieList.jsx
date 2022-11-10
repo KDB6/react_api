@@ -1,17 +1,18 @@
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 
 function MoviePopular(props) {
     return (
         <li>
-            <a href={`https://www.themoviedb.org/movie/${props.movie.id}`}>
-                <img src={`https://image.tmdb.org/t/p/w500/${props.movie.poster_path}`} alt={props.movie.title} />
+            <a href={`https://www.themoviedb.org/movie/${props.popular.id}`}>
+                <img src={`https://image.tmdb.org/t/p/w500/${props.popular.poster_path}`} alt={props.popular.title} />
                 <em>
-                    <span className="title">{props.movie.title}</span>
-                    <span className="good">{props.index + 1}</span>
+                    <span className="title">{props.popular.title}</span>
+                    <span className="score">{props.popular.vote_average}</span>
                 </em>
             </a>
         </li>
@@ -23,33 +24,35 @@ const MovieList = (props) => {
         <section id="cont__movie">
             <div className="container">
                 <div className="movie__inner">
-                    <div className="movie__slider">
-                        <Swiper
-                            effect={"coverflow"}
-                            grabCursor={true}
-                            centeredSlides={true}
-                            slidesPerView={"auto"}
-                            coverflowEffect={{
+                    <Swiper
+                        effect={"coverflow"}
+                        grabCursor={true}
+                        centeredSlides={true}
+                        slidesPerView={"auto"}
+                        coverflowEffect={{
                             rotate: 50,
                             stretch: 0,
                             depth: 100,
                             modifier: 1,
-                            initialSlide: 5,
                             slideShadows: true,
-                            }}
-                            pagination={true}
-                            modules={[EffectCoverflow, Pagination]}
-                            className="mySwiper"
+                        }}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        initialSlide= "3"
+                        pagination={true}
+                        modules={[EffectCoverflow, Pagination, Autoplay]}
+                        className="mySwiper"
                         >
-                            <SwiperSlide>
-                                {props.popular.map((popular, index) =>
-                                    index < 10 ? (
-                                        <MoviePopular key={index} movie={popular} index={index} />
-                                    ) : null
-                                )}
-                            </SwiperSlide>
-                        </Swiper>
-                    </div>
+                        {props.popular.map((popular, index) =>
+                            index < 10 ? (
+                                <SwiperSlide key={index}>
+                                    <MoviePopular key={index} popular={popular} index={index} />
+                                </SwiperSlide>
+                            ) : null
+                        )}
+                    </Swiper>
                 </div>
             </div>
         </section>
