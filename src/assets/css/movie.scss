@@ -100,14 +100,12 @@
 
 .movie__inner {
 
-
   a {
     color: var(--white);
   }
 
   ul {
       width: 100%;
-      height: 750px;
       display: flex;
 
       li {
@@ -168,12 +166,12 @@
   height: 100%;
 }
 html,
-.movie__slider {
+.movie__inner {
   position: relative;
   height: 100%;
 }
 
-.movie__slider {
+.movie__inner {
   background: #000;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
