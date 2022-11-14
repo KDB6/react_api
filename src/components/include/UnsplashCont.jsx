@@ -1,6 +1,6 @@
 import React from "react";
 
-function UnsplashItem( { image } ) {
+function UnsplashItem({ image }) {
   return (
     <li>
       <a href={`https://unsplash.com/photos/${image.id}`}>
@@ -10,7 +10,7 @@ function UnsplashItem( { image } ) {
   );
 }
 
-const UnsplashCont = ( { images } ) => {
+const UnsplashCont = ({ images }) => {
 
   return (
     <section className="cont__unsplash">

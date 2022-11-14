@@ -11,14 +11,15 @@ import Contact from "../layout/Contact";
 
 const Youtube = () => {
   const [youtubes, setYoutubes] = useState([]);
+  const [random, setYoutubesSli] = useState([]);
 
+  // 임시
   const search = async (query) => {
     await fetch(
       `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&query=${query}&maxResults=30&type=video`
     )
       .then((response) => response.json())
-      .then((result) => setYoutubes(result))
-      // .then((result) => console.log(result.results))
+      .then((result) => setYoutubes(result.items))
       .catch((error) => console.log(error));
   };
 
@@ -27,14 +28,40 @@ const Youtube = () => {
         .then((response) => response.json())
         .then((result) => setYoutubes(result.items))
         .catch((error) => console.log(error));
+
+    fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&maxResults=30&type=video`)
+        .then((response) => response.json())
+        .then((result) => setYoutubesSli(result.items))
+        .catch((error) => console.log(error));
   }, []);
+
+  // const search = async (query) => {
+  //   await fetch(
+  //     `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&query=${query}&maxResults=30&type=video`
+  //   )
+  //     .then((response) => response.json())
+  //     .then((result) => setYoutubes(result.items))
+  //     .catch((error) => console.log(error));
+  // };
+
+  // useEffect(() => {
+  //   fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&maxResults=30&type=video`)
+  //       .then((response) => response.json())
+  //       .then((result) => setYoutubes(result.items))
+  //       .catch((error) => console.log(error));
+
+  //   fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&maxResults=30&type=video`)
+  //       .then((response) => response.json())
+  //       .then((result) => setYoutubesSli(result.items))
+  //       .catch((error) => console.log(error));
+  // }, []);
 
   return (
     <>
         <Header />
         <Contents>
           <Title title={["Youtube", "referene API"]} />
-          <YoutubeSlider />
+          <YoutubeSlider random={random} />
           <YoutubeSearch onSearch={search} />
           <YoutubeCont youtubes={youtubes} />
           <Contact />

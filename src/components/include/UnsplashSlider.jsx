@@ -5,17 +5,17 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 
-function UnsplashSli(image) {
+function UnsplashSli({random}) {
     return (
         <li>
-            <a href={`https://unsplash.com/photos/${image.random.id}`}>
-                <img src={`https://unsplash.com/photos/${image.random.urls.regular}`} alt="" />
+            <a href={`https://unsplash.com/photos/${random.id}`}>
+                <img src={random.urls.regular} alt="" />
             </a>
         </li>
     );
 }
 
-const UnsplashSlider = (image) => {
+const UnsplashSlider = ({random}) => {
     return (
         <section id="cont__unsplash">
             <div className="container">
@@ -41,7 +41,7 @@ const UnsplashSlider = (image) => {
                         modules={[EffectCoverflow, Pagination, Autoplay]}
                         className="mySwiper"
                         >
-                        {image.random.map((random, index) =>
+                        {random.map((random, index) =>
                             index < 10 ? (
                                 <SwiperSlide key={index}>
                                     <UnsplashSli key={index} random={random} index={index} />
