@@ -16,7 +16,7 @@ const Youtube = () => {
   // 임시
   const search = async (query) => {
     await fetch(
-      `https://raw.githubusercontent.com/KDB6/react_api/main/src/assets/Exyou.json=$query=${query}`
+      `https://raw.githubusercontent.com/KDB6/react_api/main/src/assets/Exyou.json`
     )
       .then((response) => response.json())
       .then((result) => setYoutubes(result.items))

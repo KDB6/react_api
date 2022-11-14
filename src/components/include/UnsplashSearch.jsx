@@ -19,6 +19,8 @@ const UnsplashSearch = ({onSearch}) => {
       handleSearch();
     }
 
+    
+
   return (
     <div className='unsplash__search'>
         <div className="container">
