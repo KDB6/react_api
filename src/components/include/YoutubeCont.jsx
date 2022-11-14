@@ -4,7 +4,7 @@ function YoutubeItem ({ youtube }) {
   return (
     <li>
       <a href={`https://raw.githubusercontent.com/KDB6/react_api/main/src/assets/Exyou.json`}>
-        <img src={youtube.items.snippet.thumbnails.medium.url} alt="" />
+        <img src={youtube.thumbnails} alt="" />
       </a>
     </li>
   );

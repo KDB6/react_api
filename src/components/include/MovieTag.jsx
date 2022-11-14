@@ -2,7 +2,7 @@ import React from 'react';
 
 const unsplashList = [
   {name: "COMEDY"},
-  {name: "HORROR"},
+  {name: "MUSIC"},
   {name: "MARVEL"},
   {name: "ROMANCE"},
   {name: "ANIMATION"},
