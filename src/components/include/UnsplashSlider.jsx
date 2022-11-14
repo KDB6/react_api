@@ -1,9 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import { EffectCoverflow, Pagination, Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 function UnsplashSli({random}) {
     return (
@@ -21,25 +20,18 @@ const UnsplashSlider = ({random}) => {
             <div className="container">
                 <div className="unsplash__inner">
                     <Swiper
-                        effect={"coverflow"}
-                        grabCursor={true}
-                        centeredSlides={true}
                         slidesPerView={"auto"}
-                        coverflowEffect={{
-                            rotate: 38,
-                            stretch: 0,
-                            depth: 100,
-                            modifier: 1,
-                            slideShadows: true,
+                        centeredSlides={true}
+                        spaceBetween={30}
+                        pagination={{
+                          clickable: true,
                         }}
+                        modules={[Pagination, Autoplay]}
+                        className="mySwiper"
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: false,
                         }}
-                        initialSlide= "3"
-                        pagination={true}
-                        modules={[EffectCoverflow, Pagination, Autoplay]}
-                        className="mySwiper"
                         >
                         {random.map((random, index) =>
                             index < 10 ? (

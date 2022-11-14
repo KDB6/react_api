@@ -3,7 +3,7 @@ import React from "react";
 function YoutubeItem ({ youtube }) {
   return (
     <li>
-      <a href={`https://youtube.com/${youtube.items.id}`}>
+      <a href={`https://raw.githubusercontent.com/KDB6/react_api/main/src/assets/Exyou.json`}>
         <img src={youtube.items.snippet.thumbnails.medium.url} alt="" />
       </a>
     </li>

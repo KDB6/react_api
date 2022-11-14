@@ -16,7 +16,7 @@ const Unsplash = () => {
 
   const search = async (query) => {
     await fetch(
-      `https://api.unsplash.com/search/photos?client_id=AhDbLOTnwHGYmo4we_vDUhkIf2MTG3fS9HwGmK1slMg&query=${query}&per_page=30`
+      `https://api.unsplash.com/search/photos?client_id=AhDbLOTnwHGYmo4we_vDUhkIf2MTG3fS9HwGmK1slMg&query=${query}`
     )
       .then((response) => response.json())
       .then((result) => setIamges(result))
