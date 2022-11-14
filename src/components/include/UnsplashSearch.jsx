@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 
-const MovieSearch = ({onSearch}) => {
+const UnsplashSearch = ({onSearch}) => {
 
     const inputRef = useRef();
 
@@ -16,18 +16,18 @@ const MovieSearch = ({onSearch}) => {
     };
 
     const onClick = () => {
-        handleSearch();
+      handleSearch();
     }
 
   return (
-    <div className='movie__search'>
+    <div className='unsplash__search'>
         <div className="container">
             <h2>검색하기</h2>
-            <input ref={inputRef} type="search" placeholder='원하시는 영화를 검색해주세요!' onKeyPress={onKeyPress} />
+            <input ref={inputRef} type="search" placeholder='원하시는 이미지를 검색해주세요!' onKeyPress={onKeyPress} />
             <button type='submit' onClick={onClick}>검색</button>
         </div>
     </div>
   )
 }
 
-export default MovieSearch
+export default UnsplashSearch
