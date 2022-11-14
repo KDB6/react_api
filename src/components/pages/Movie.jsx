@@ -5,6 +5,7 @@ import Footer from "../layout/Footer";
 import Contents from "../layout/Contents";
 import Title from "../layout/Title";
 import MovieSearch from "../include/MovieSearch";
+import MovieTag from "../include/MovieTag";
 import MovieCont from "../include/MovieCont";
 import MovieList from "../include/MovieList";
 import Contact from "../layout/Contact";
@@ -16,6 +17,15 @@ const Movie = () => {
   const search = async (query) => {
     await fetch(
       `https://api.themoviedb.org/3/search/movie?api_key=540588f0940b5e6bdcf873b4608b86f0&query=${query}`
+    )
+      .then((response) => response.json())
+      .then((result) => setMovies(result.results))
+      .catch((error) => console.log(error));
+  };
+
+  const movieCHoice = async (id) => {
+    await fetch(
+      `https://api.themoviedb.org/3/search/movie?api_key=540588f0940b5e6bdcf873b4608b86f0&query=${id}`
     )
       .then((response) => response.json())
       .then((result) => setMovies(result.results))
@@ -46,6 +56,7 @@ const Movie = () => {
           <Title title={["Movie", "referene API"]} />
           <MovieList popular={popular} />
           <MovieSearch onSearch={search} />
+          <MovieTag tag={movieCHoice} />
           <MovieCont movies={movies}/>
           <Contact />
         </Contents>

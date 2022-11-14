@@ -203,3 +203,15 @@ em {
   font-family: var(--font-kor);
 }
 
+.movie__tag {
+  text-align: center;
+  margin-bottom: 30px;
+
+  button {
+    font-size: 1vw;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
