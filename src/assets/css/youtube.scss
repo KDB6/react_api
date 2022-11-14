@@ -1,0 +1,57 @@
+.cont__youtube {
+
+    ul {
+        column-count: 4;
+        column-gap: 20px;
+        width: 100%;
+     }
+
+     li {
+        margin-bottom: 20px;
+
+        img {
+            border-radius: 5px;
+        }
+     }
+}
+
+.youtube__search {
+    margin-top: 50px;
+      margin-bottom: 100px;
+  
+      .container {
+          position: relative;
+      }
+      
+      h2 {
+          color: var(--white);
+          font-size: 40px;
+          text-indent: -9999px;
+          height: 0;
+          font-family: var(--font-kor);
+      }
+      input {
+          background: #000;
+          border: 1px solid var(--white);
+          border-radius: 50px;
+          color: var(--white);
+          width: 100%;
+          padding: 14px 20px;
+          font-family: var(--font-kor);
+      }
+      button {
+          position: absolute;
+          right: 15px;
+          top: 7px;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 0;
+          font-family: var(--font-kor);
+          font-weight: 400;
+          z-index: 1000;
+          background: #000;
+          color: var(--white);
+          cursor: pointer;
+      }
+  }

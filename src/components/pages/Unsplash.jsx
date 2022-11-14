@@ -19,8 +19,7 @@ const Unsplash = () => {
       `https://api.unsplash.com/search/photos?client_id=AhDbLOTnwHGYmo4we_vDUhkIf2MTG3fS9HwGmK1slMg&query=${query}&per_page=30`
     )
       .then((response) => response.json())
-      // .then((result) => setIamges(result))
-      .then((result) => console.log(result.results))
+      .then((result) => setIamges(result))
       .catch((error) => console.log(error));
   };
 
