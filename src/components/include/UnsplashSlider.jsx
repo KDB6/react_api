@@ -8,7 +8,7 @@ function UnsplashSli({random}) {
     return (
         <li>
             <a href={`https://unsplash.com/photos/${random.id}`}>
-                <img src={random.urls.regular} alt="" />
+                <img src={random.urls.regular} alt={random.urls.alt_description} />
             </a>
         </li>
     );
