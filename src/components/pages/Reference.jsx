@@ -4,7 +4,6 @@ import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import Contents from "../layout/Contents";
 import Title from "../layout/Title";
-import AboutCont from "../include/AboutCont";
 import ReferCont from "../include/ReferCont";
 import Contact from "../layout/Contact";
 
@@ -27,7 +26,6 @@ const Reference = () => {
         <Header />
         <Contents>
           <Title title={["Reference", "book"]} />
-          <AboutCont />
           <ReferCont references ={references}/>
           <Contact />
         </Contents>

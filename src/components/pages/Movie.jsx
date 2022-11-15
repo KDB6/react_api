@@ -23,7 +23,7 @@ const Movie = () => {
       .catch((error) => console.log(error));
   };
 
-  const movieCHoice = async (id) => {
+  const tagCHoice = async (id) => {
     await fetch(
       `https://api.themoviedb.org/3/search/movie?api_key=540588f0940b5e6bdcf873b4608b86f0&query=${id}`
     )
@@ -56,7 +56,7 @@ const Movie = () => {
           <Title title={["Movie", "referene API"]} />
           <MovieList popular={popular} />
           <MovieSearch onSearch={search} />
-          <MovieTag tag={movieCHoice} />
+          <MovieTag tag={tagCHoice} />
           <MovieCont movies={movies}/>
           <Contact />
         </Contents>

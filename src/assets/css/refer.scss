@@ -1,5 +1,4 @@
 .refer__inner {
-    font-family: "JejuMyeongjo";
     padding-bottom: 100px;
 
     h2 {
@@ -40,7 +39,8 @@
             .desc {
                 flex: 1 1 65%;
                 border-right: 1px solid var(--bg-dark-border);
-                font-family: var(--font-kor);
+                font-family: var(--font-kor2);
+                font-size: 0.7vw;
             }
             .star {
                 flex: 1 1 10%;

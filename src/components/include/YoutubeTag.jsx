@@ -7,7 +7,7 @@ const youtubeList = [
   {name: "죠니월드"},
   {name: "박서림"},
   {name: "우왁굳의 게임방송"},
-] 
+]
 
 function YoutubeTag ({tag}) {
   function tagClick(e) {

@@ -23,9 +23,9 @@ const Youtube = () => {
       .catch((error) => console.log(error));
   };
 
-  const tagCHoice = async (id) => {
+  const tagCHoice = async (channelTitle) => {
     await fetch(
-      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&query=${id}&maxResults=30&type=video`
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&query=${channelTitle}&maxResults=30&type=video`
     )
       .then((response) => response.json())
       .then((result) => setYoutubes(result.items))
