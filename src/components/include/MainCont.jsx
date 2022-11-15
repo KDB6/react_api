@@ -1,13 +1,13 @@
 import React from 'react'
 
 const mainInfo = [
-  { text : "go"},
-  { text : "to"},
-  { text : "the"},
-  { text : "back"},
+  { text : "we provide"},
+  { text : "visual coding"},
+  { text : "solutions"},
+  { text : "for you API"},
 ]
 
-const MainText = (text) => {
+const MainText = ({text}) => {
   return <div>{text}</div>
 } 
 

@@ -1,10 +1,10 @@
 import React from "react";
 
-function YoutubeItem ({ items }) {
+function YoutubeItem ({ youtube }) {
   return (
     <li>
-      <a href={`https://www.googleapis.com/youtube/${items.id}`}>
-        <img src={items.snippet.thumbnails} alt="" />
+      <a href={`https://www.youtube.com/watch?v=${youtube.id.videoId}`}>
+        <img src={youtube.snippet.thumbnails.medium.url} alt={youtube.snippet.description} />
       </a>
     </li>
   );
@@ -17,8 +17,8 @@ const YoutubeCont = ({ youtubes }) => {
       <div className="container">
         <div className="youtube__inner">
           <ul>
-            {youtubes.map((items, index) => (
-              <YoutubeItem key={index} items={items} />
+            {youtubes.map((youtube, index) => (
+              <YoutubeItem key={index} youtube={youtube} />
             ))}
           </ul>
         </div>
