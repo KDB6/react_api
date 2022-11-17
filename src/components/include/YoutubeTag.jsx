@@ -1,7 +1,7 @@
 import React from 'react';
 
 const youtubeList = [
-  {name: "pood"},
+  {name: "로마러"},
   {name: "육식맨"},
   {name: "지식한입"},
   {name: "죠니월드"},

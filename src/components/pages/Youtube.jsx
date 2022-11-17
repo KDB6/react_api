@@ -16,16 +16,16 @@ const Youtube = () => {
 
   const search = async (query) => {
     await fetch(
-      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&query=${query}&maxResults=30&type=video`
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&query=${query}&maxResults=24&type=video`
     )
       .then((response) => response.json())
       .then((result) => setYoutubes(result.items))
       .catch((error) => console.log(error));
   };
 
-  const tagCHoice = async (channelTitle) => {
+  const tagCHoice = async (id) => {
     await fetch(
-      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&query=${channelTitle}&maxResults=30&type=video`
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${id}&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&query&maxResults=24&type=video`
     )
       .then((response) => response.json())
       .then((result) => setYoutubes(result.items))
@@ -33,12 +33,12 @@ const Youtube = () => {
   };
 
   useEffect(() => {
-    fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&maxResults=30&type=video`)
+    fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&maxResults=24&type=video`)
         .then((response) => response.json())
         .then((result) => setYoutubes(result.items))
         .catch((error) => console.log(error));
 
-    fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&maxResults=30&type=video`)
+    fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=킹타쿠&key=AIzaSyABuOUy0Teh_pPVBd6DOP0sB1mj7EnYhs0&maxResults=24&type=video`)
         .then((response) => response.json())
         .then((result) => setYoutubesSli(result.items))
         .catch((error) => console.log(error));
