@@ -5,7 +5,7 @@ https://kdb6-reactapi.netlify.app/
 
 ## 리액트 설치
 
-create-react-app ./
+npx create-react-app ./
 
 ## node-sass 설치
 
